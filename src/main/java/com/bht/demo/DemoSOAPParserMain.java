@@ -9,7 +9,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
@@ -69,6 +71,10 @@ public class DemoSOAPParserMain {
         /*
          *  'W': window seat
          *  'A': aisle seat
+         *  'E': ?
+         *  'O': ?
+         *  'K': ?
+         *  'I': ?
          */
         List<String> locationAttribute = seatMapInformation.getLocationAttribute();
         List<String> seatPriorityAttributes = seatMapInformation.getSeatPriorityAttributes();
@@ -77,6 +83,15 @@ public class DemoSOAPParserMain {
         DeckDetailsType deckDetailsType = seatMapdetails.getDeckDetails().get(0);
         Integer totalSeats = deckDetailsType.getTotalSeats();
         List<SeatAttributesPositionType> seatAttributesPositionTypes = deckDetailsType.getSeatAttributesPosition();
+
+        // 2D array => map.get(rowIndex).get(colIndex)
+        Map<Integer, Map<Integer, String>> seatNumberMap = new HashMap<>();
+        Map<Integer, Map<Integer, String>> seatStatusMap = new HashMap<>();
+        Map<Integer, Map<Integer, List<String>>> seatLocationAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, List<String>>> seatPriorityAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, List<String>>> seatZoneAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, List<String>>> facilityAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, List<String>>> seatAttachedSsrMap = new HashMap<>();
 
         List<CabinDetailsType> cabinDetailsTypes = deckDetailsType.getCabinDetails();
         cabinDetailsTypes.forEach(cabin -> {
@@ -97,12 +112,24 @@ public class DemoSOAPParserMain {
                 seatDetailsTypes.forEach(seat -> {
                     int rowIndex = Integer.parseInt(seat.getInternalRowNumber());
                     int colIndex = Integer.parseInt(seat.getInternalColumnNumber());
-                    String status = seat.getControlAttribute(); // AVAILABLE, RESTRICTED, BLOCKED
+                    String seatNumber = seat.getSeatNumber();
+                    String seatStatus = seat.getControlAttribute(); // AVAILABLE, RESTRICTED, BLOCKED
                     List<String> seatLocationAttribute = seat.getLocationAttribute();
                     List<String> seatPriorityAttribute = seat.getSeatPriorityAttribute();
-                    List<String> facilityAttribute = seat.getFacilityAttribute();
                     List<String> seatZoneAttribute = seat.getZoneAttribute();
+                    List<String> facilityAttribute = seat.getFacilityAttribute();
                     List<String> seatAttachedSsr = seat.getAttachedSsr();
+                    //List<String> allowedFareClasses = seat.getAllowedFareClasses();
+                    //List<String> restrictedFareClasses = seat.getRestrictedFareClasses();
+                    //List<SeatAssignMentFeeType> seatAssignMentFee = seat.getSeatAssignMentFee();
+
+                    seatNumberMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatNumber);
+                    seatStatusMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatStatus);
+                    seatLocationAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatLocationAttribute);
+                    seatPriorityAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatPriorityAttribute);
+                    seatZoneAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatZoneAttribute);
+                    facilityAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, facilityAttribute);
+                    seatAttachedSsrMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatAttachedSsr);
                 });
             });
         });
