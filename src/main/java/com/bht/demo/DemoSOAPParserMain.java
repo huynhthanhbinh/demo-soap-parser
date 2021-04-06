@@ -90,7 +90,7 @@ public class DemoSOAPParserMain {
         Map<Integer, Map<Integer, List<String>>> seatLocationAttributeMap = new HashMap<>();
         Map<Integer, Map<Integer, List<String>>> seatPriorityAttributeMap = new HashMap<>();
         Map<Integer, Map<Integer, List<String>>> seatZoneAttributeMap = new HashMap<>();
-        Map<Integer, Map<Integer, List<String>>> facilityAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, List<String>>> seatFacilityAttributeMap = new HashMap<>();
         Map<Integer, Map<Integer, List<String>>> seatAttachedSsrMap = new HashMap<>();
 
         List<CabinDetailsType> cabinDetailsTypes = deckDetailsType.getCabinDetails();
@@ -116,23 +116,29 @@ public class DemoSOAPParserMain {
                     String seatStatus = seat.getControlAttribute(); // AVAILABLE, RESTRICTED, BLOCKED
                     List<String> seatLocationAttribute = seat.getLocationAttribute();
                     List<String> seatPriorityAttribute = seat.getSeatPriorityAttribute();
+                    List<String> seatFacilityAttribute = seat.getFacilityAttribute();
                     List<String> seatZoneAttribute = seat.getZoneAttribute();
-                    List<String> facilityAttribute = seat.getFacilityAttribute();
                     List<String> seatAttachedSsr = seat.getAttachedSsr();
                     //List<String> allowedFareClasses = seat.getAllowedFareClasses();
                     //List<String> restrictedFareClasses = seat.getRestrictedFareClasses();
                     //List<SeatAssignMentFeeType> seatAssignMentFee = seat.getSeatAssignMentFee();
 
-                    seatNumberMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatNumber);
-                    seatStatusMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatStatus);
-                    seatLocationAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatLocationAttribute);
-                    seatPriorityAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatPriorityAttribute);
-                    seatZoneAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatZoneAttribute);
-                    facilityAttributeMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, facilityAttribute);
-                    seatAttachedSsrMap.computeIfAbsent(rowIndex, missingRowIndex -> new HashMap<>()).put(colIndex, seatAttachedSsr);
+                    seatNumberMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatNumber);
+                    seatStatusMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatStatus);
+                    seatAttachedSsrMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatAttachedSsr);
+                    seatZoneAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatZoneAttribute);
+                    seatFacilityAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatFacilityAttribute);
+                    seatLocationAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatLocationAttribute);
+                    seatPriorityAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatPriorityAttribute);
                 });
             });
         });
-        System.out.println(cabinDetailsTypes);
+        System.out.println(seatNumberMap);
+        System.out.println(seatStatusMap);
+        System.out.println(seatAttachedSsrMap);
+        System.out.println(seatZoneAttributeMap);
+        System.out.println(seatFacilityAttributeMap);
+        System.out.println(seatLocationAttributeMap);
+        System.out.println(seatPriorityAttributeMap);
     }
 }
