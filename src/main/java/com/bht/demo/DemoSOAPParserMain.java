@@ -1,10 +1,15 @@
 package com.bht.demo;
 
 import com.bht.demo.parser.SOAPParser;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
 import org.bamboo.model.flightport.*;
 
 import javax.xml.bind.JAXBException;
 import java.io.BufferedReader;
+import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
@@ -85,13 +90,13 @@ public class DemoSOAPParserMain {
         List<SeatAttributesPositionType> seatAttributesPositionTypes = deckDetailsType.getSeatAttributesPosition();
 
         // 2D array => map.get(rowIndex).get(colIndex)
-        Map<Integer, Map<Integer, String>> seatNumberMap = new HashMap<>();
-        Map<Integer, Map<Integer, String>> seatStatusMap = new HashMap<>();
-        Map<Integer, Map<Integer, List<String>>> seatLocationAttributeMap = new HashMap<>();
-        Map<Integer, Map<Integer, List<String>>> seatPriorityAttributeMap = new HashMap<>();
-        Map<Integer, Map<Integer, List<String>>> seatZoneAttributeMap = new HashMap<>();
-        Map<Integer, Map<Integer, List<String>>> seatFacilityAttributeMap = new HashMap<>();
-        Map<Integer, Map<Integer, List<String>>> seatAttachedSsrMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatNumberMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatStatusMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatLocationAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatPriorityAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatZoneAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatFacilityAttributeMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatAttachedSsrMap = new HashMap<>();
 
         List<CabinDetailsType> cabinDetailsTypes = deckDetailsType.getCabinDetails();
         cabinDetailsTypes.forEach(cabin -> {
@@ -140,5 +145,33 @@ public class DemoSOAPParserMain {
         System.out.println(seatFacilityAttributeMap);
         System.out.println(seatLocationAttributeMap);
         System.out.println(seatPriorityAttributeMap);
+
+        // Java: try-with-resources
+        try (HSSFWorkbook workbook = new HSSFWorkbook()) {
+            exportToSheet(workbook, "seat number", seatNumberMap);
+            exportToSheet(workbook, "seat status", seatStatusMap);
+            exportToSheet(workbook, "seat ssr", seatAttachedSsrMap);
+            exportToSheet(workbook, "seat zone", seatZoneAttributeMap);
+            exportToSheet(workbook, "seat facility", seatFacilityAttributeMap);
+            exportToSheet(workbook, "seat location", seatLocationAttributeMap);
+            exportToSheet(workbook, "seat priority", seatPriorityAttributeMap);
+            FileOutputStream fileOutputStream = new FileOutputStream("bamboo_seat_statistics.xls");
+            workbook.write(fileOutputStream);
+        } catch (Exception exception) {
+            System.out.println(exception.getMessage());
+        }
+    }
+
+    private static void exportToSheet(HSSFWorkbook workbook, String sheetName, Map<Integer, Map<Integer, Object>> statisticsMap) {
+        HSSFSheet sheet = workbook.createSheet(sheetName);
+        statisticsMap.forEach((seatRow, seatRowValues) -> {
+            Row row = sheet.createRow(seatRow);
+            seatRowValues.forEach((column, value) -> {
+                if (column > 0) {
+                    Cell cell = row.createCell(column);
+                    cell.setCellValue(value.toString());
+                }
+            });
+        });
     }
 }

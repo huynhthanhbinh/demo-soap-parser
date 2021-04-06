@@ -11,3 +11,5 @@ log/
 *.iws
 *.mdf
 *.ldf
+*.xls
+*.xlsx
