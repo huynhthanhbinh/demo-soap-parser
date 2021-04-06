@@ -14,10 +14,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -76,7 +73,7 @@ public class DemoSOAPParserMain {
         /*
          *  'W': window seat
          *  'A': aisle seat
-         *  'E': ?
+         *  'E': exit seat
          *  'O': ?
          *  'K': ?
          *  'I': ?
@@ -99,6 +96,13 @@ public class DemoSOAPParserMain {
         Map<Integer, Map<Integer, Object>> seatAttachedSsrMap = new HashMap<>();
 
         List<CabinDetailsType> cabinDetailsTypes = deckDetailsType.getCabinDetails();
+
+        List<Character> seatConfigurationCharacters = Arrays.stream(cabinDetailsTypes.stream()
+                .map(CabinDetailsType::getCompartmentDetails).flatMap(Collection::stream)
+                .map(CompartmentDetailsType::getInternalSeatConfiguration)
+                .max(Comparator.comparing(String::length)).orElse("")
+                .split("-")).map(str -> str.charAt(0)).collect(Collectors.toList());
+
         cabinDetailsTypes.forEach(cabin -> {
             String cabinId = cabin.getCabinId();
             String cabinName = cabin.getCabinName();
@@ -117,6 +121,8 @@ public class DemoSOAPParserMain {
                 seatDetailsTypes.forEach(seat -> {
                     int rowIndex = Integer.parseInt(seat.getInternalRowNumber());
                     int colIndex = Integer.parseInt(seat.getInternalColumnNumber());
+                    int externalRowIndex = Integer.parseInt(seat.getExternalRowNumber());
+                    char externalColIndex = seat.getExternalColumnName().charAt(0);
                     String seatNumber = seat.getSeatNumber();
                     String seatStatus = seat.getControlAttribute(); // AVAILABLE, RESTRICTED, BLOCKED
                     List<String> seatLocationAttribute = seat.getLocationAttribute();
@@ -128,16 +134,17 @@ public class DemoSOAPParserMain {
                     //List<String> restrictedFareClasses = seat.getRestrictedFareClasses();
                     //List<SeatAssignMentFeeType> seatAssignMentFee = seat.getSeatAssignMentFee();
 
-                    seatNumberMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatNumber);
-                    seatStatusMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatStatus);
-                    seatAttachedSsrMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatAttachedSsr);
-                    seatZoneAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatZoneAttribute);
-                    seatFacilityAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatFacilityAttribute);
-                    seatLocationAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatLocationAttribute);
-                    seatPriorityAttributeMap.computeIfAbsent(rowIndex, HashMap::new).put(colIndex, seatPriorityAttribute);
+                    seatNumberMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatNumber);
+                    seatStatusMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatStatus);
+                    seatAttachedSsrMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatAttachedSsr);
+                    seatZoneAttributeMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatZoneAttribute);
+                    seatFacilityAttributeMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatFacilityAttribute);
+                    seatLocationAttributeMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatLocationAttribute);
+                    seatPriorityAttributeMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatPriorityAttribute);
                 });
             });
         });
+
         System.out.println(seatNumberMap);
         System.out.println(seatStatusMap);
         System.out.println(seatAttachedSsrMap);
@@ -164,11 +171,11 @@ public class DemoSOAPParserMain {
 
     private static void exportToSheet(HSSFWorkbook workbook, String sheetName, Map<Integer, Map<Integer, Object>> statisticsMap) {
         HSSFSheet sheet = workbook.createSheet(sheetName);
-        statisticsMap.forEach((seatRow, seatRowValues) -> {
-            Row row = sheet.createRow(seatRow);
-            seatRowValues.forEach((column, value) -> {
-                if (column > 0) {
-                    Cell cell = row.createCell(column);
+        statisticsMap.forEach((rowIndex, seatRowValues) -> {
+            Row row = sheet.createRow(rowIndex - 1);
+            seatRowValues.forEach((colIndex, value) -> {
+                if (colIndex != -1) {
+                    Cell cell = row.createCell(colIndex);
                     cell.setCellValue(value.toString());
                 }
             });
