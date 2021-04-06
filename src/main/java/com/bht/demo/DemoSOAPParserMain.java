@@ -19,25 +19,33 @@ import java.util.stream.Collectors;
 public class DemoSOAPParserMain {
 
     /**
-     * SeatMapConfiguration: X - Y - X ('-' stands for the aisle), DEC stands for DEC alphabets
+     * Seat indexes: EXTERNAL (customer view) vs INTERNAL (airline view)
+     * For example: Seat 11A, 1st row, cabin BUSINESS, Aircraft Boeing A787 (Bamboo Airline)
+     * ++ SeatNumber: 11A
+     * ++ ExternalRowNumber: 11
+     * ++ ExternalColumnName: A
+     * ++ InternalRowNumber: 1
+     * ++ InternalColNumber: 1
+     * <p>
+     * SeatMapConfiguration: X - Y - X ('-' stands for the aisle), DEC stands for DEC alphabets (InternalConfiguration)
      * For Example:
-     *
+     * <p>
      * BOEING A320 (29 rows / 2 cabins)
-     *
-     * - BUSINESS: from row 1 to row 2 (2 rows)
+     * <p>
+     * - BUSINESS: from row 1 to row 2 (2 rows) => Cabin1
      * ++ Compartment1: 2-0-2 (DEC: A - C-D - F), from row 1 to row 2 (2 rows)
-     *
-     * - ECONOMY: from row 3 to row 29 (27 rows)
+     * <p>
+     * - ECONOMY: from row 3 to row 29 (27 rows) => Cabin2
      * ++ Compartment1: 3-0-3 (DEC: A-B-C-D-E-F), from row 3 to row 29 (27 rows)
-     *
+     * <p>
      * BOEING A787 (40 rows / 2 cabins)
-     *
-     * - BUSINESS: from row 11 to row 19 (7 rows) : (ignore row 13 and row 14)
+     * <p>
+     * - BUSINESS: from row 11 to row 19 (7 rows) : (ignore row 13 and row 14) => Cabin1
      * ++ Compartment1: 1-0-1 (DEC: A  -  K), from row 11 to row 11 (1 row)
      * ++ Compartment2: 1-2-1 (DEC: A-D-G-K), from row 12 to row 12 (1 row)
      * ++ Compartment3: 1-2-1 (DEC: A-D-G-K), from row 15 to row 19 (5 rows)
-     *
-     * - ECONOMY: from row 31 to row 63 (33 rows)
+     * <p>
+     * - ECONOMY: from row 31 to row 63 (33 rows) => Cabin2
      * ++ Compartment1: 2-3-2 (DEC: A - C-D-E-G-H - K), from row 31 to row 33 (3 rows)
      * ++ Compartment2: 3-3-3 (DEC: A-B-C-D-E-G-H-J-K), from row 34 to row 45 (12 rows)
      * ++ Compartment3: 3-3-0 (DEC: A-B-C-D-E-G      ), from row 46 to row 46 (1 row)
@@ -69,7 +77,35 @@ public class DemoSOAPParserMain {
         DeckDetailsType deckDetailsType = seatMapdetails.getDeckDetails().get(0);
         Integer totalSeats = deckDetailsType.getTotalSeats();
         List<SeatAttributesPositionType> seatAttributesPositionTypes = deckDetailsType.getSeatAttributesPosition();
+
         List<CabinDetailsType> cabinDetailsTypes = deckDetailsType.getCabinDetails();
+        cabinDetailsTypes.forEach(cabin -> {
+            String cabinId = cabin.getCabinId();
+            String cabinName = cabin.getCabinName();
+            BigInteger cabinTotalSeats = cabin.getTotalSeats();
+            String cabinExternalStartRow = cabin.getStartRow();
+            String cabinExternalEndRow = cabin.getEndRow();
+
+            List<CompartmentDetailsType> compartmentDetailsTypes = cabin.getCompartmentDetails();
+            compartmentDetailsTypes.forEach(compartment -> {
+                String compartmentExternalStartRow = compartment.getStartRow();
+                String compartmentExternalEndRow = compartment.getEndRow();
+                String seatConfiguration = compartment.getSeatConfiguration();
+                String internalSeatConfiguration = compartment.getInternalSeatConfiguration();
+
+                List<SeatDetailsType> seatDetailsTypes = compartment.getSeatDetails();
+                seatDetailsTypes.forEach(seat -> {
+                    int rowIndex = Integer.parseInt(seat.getInternalRowNumber());
+                    int colIndex = Integer.parseInt(seat.getInternalColumnNumber());
+                    String status = seat.getControlAttribute(); // AVAILABLE, RESTRICTED, BLOCKED
+                    List<String> seatLocationAttribute = seat.getLocationAttribute();
+                    List<String> seatPriorityAttribute = seat.getSeatPriorityAttribute();
+                    List<String> facilityAttribute = seat.getFacilityAttribute();
+                    List<String> seatZoneAttribute = seat.getZoneAttribute();
+                    List<String> seatAttachedSsr = seat.getAttachedSsr();
+                });
+            });
+        });
         System.out.println(cabinDetailsTypes);
     }
 }
