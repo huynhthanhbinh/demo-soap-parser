@@ -70,6 +70,7 @@ public class DemoSOAPParserMain {
         SeatMapInformation seatMapInformation = Objects.requireNonNull(showSeatMapRS).getSeatMapInformation();
         List<String> attachedSsr = seatMapInformation.getAttachedSsr();
         List<String> zoneAttributes = seatMapInformation.getZoneAttributes();
+        List<String> facilityAttributes = seatMapInformation.getFacilityAttributes();
         /*
          *  'W': window seat
          *  'A': aisle seat
@@ -162,8 +163,7 @@ public class DemoSOAPParserMain {
             exportToSheet(workbook, "seat facility", seatFacilityAttributeMap);
             exportToSheet(workbook, "seat location", seatLocationAttributeMap);
             exportToSheet(workbook, "seat priority", seatPriorityAttributeMap);
-            FileOutputStream fileOutputStream = new FileOutputStream("bamboo_seat_statistics.xls");
-            workbook.write(fileOutputStream);
+            workbook.write(new FileOutputStream("bamboo_seat_statistics.xls"));
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
         }
