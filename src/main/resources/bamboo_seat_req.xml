@@ -25,6 +25,8 @@
                 <fltSuffix>*</fltSuffix>
                 <carrierCode>QH</carrierCode>
             </FlightIdentifier>
+            <isSeatFeeRequired>true</isSeatFeeRequired>
+            <PointOfSale>VN</PointOfSale>
         </sim:ShowSeatMapRQ>
     </soapenv:Body>
 </soapenv:Envelope>

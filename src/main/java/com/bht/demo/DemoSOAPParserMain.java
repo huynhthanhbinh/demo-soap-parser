@@ -14,6 +14,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
+import java.text.MessageFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -58,6 +59,7 @@ public class DemoSOAPParserMain {
      * ++ Compartment6: 2-3-2 (DEC: A - C-D-E-G-H - K), from row 61 to row 61 (1 row)
      * ++ Compartment7: 0-3-0 (DEC:       D-E-G      ), from row 62 to row 63 (2 rows)
      */
+    @SuppressWarnings({"unused", "java:S1481", "java:S106", "java:S125"})
     public static void main(String[] args) throws JAXBException {
         InputStream inputStream = DemoSOAPParserMain.class.getClassLoader()
                 .getResourceAsStream("bamboo_seat_res.xml");
@@ -90,6 +92,7 @@ public class DemoSOAPParserMain {
         // 2D array => map.get(rowIndex).get(colIndex)
         Map<Integer, Map<Integer, Object>> seatNumberMap = new HashMap<>();
         Map<Integer, Map<Integer, Object>> seatStatusMap = new HashMap<>();
+        Map<Integer, Map<Integer, Object>> seatAssignmentFeeMap = new HashMap<>();
         Map<Integer, Map<Integer, Object>> seatLocationAttributeMap = new HashMap<>();
         Map<Integer, Map<Integer, Object>> seatPriorityAttributeMap = new HashMap<>();
         Map<Integer, Map<Integer, Object>> seatZoneAttributeMap = new HashMap<>();
@@ -131,9 +134,13 @@ public class DemoSOAPParserMain {
                     List<String> seatFacilityAttribute = seat.getFacilityAttribute();
                     List<String> seatZoneAttribute = seat.getZoneAttribute();
                     List<String> seatAttachedSsr = seat.getAttachedSsr();
-                    //List<String> allowedFareClasses = seat.getAllowedFareClasses();
-                    //List<String> restrictedFareClasses = seat.getRestrictedFareClasses();
-                    //List<SeatAssignMentFeeType> seatAssignMentFee = seat.getSeatAssignMentFee();
+                    List<SeatAssignMentFeeType> seatAssignMentFees = seat.getSeatAssignMentFee();
+
+                    seatAssignMentFees.stream()
+                            .filter(seatAssignmentFeeType -> "VND".equals(seatAssignmentFeeType.getCurrency()))
+                            .findFirst()
+                            .ifPresent(seatAssignmentFeeType -> seatAssignmentFeeMap.computeIfAbsent(externalRowIndex, HashMap::new)
+                                    .put(seatConfigurationCharacters.indexOf(externalColIndex), buildFeeDetailsString(seatAssignmentFeeType)));
 
                     seatNumberMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatNumber);
                     seatStatusMap.computeIfAbsent(externalRowIndex, HashMap::new).put(seatConfigurationCharacters.indexOf(externalColIndex), seatStatus);
@@ -158,6 +165,7 @@ public class DemoSOAPParserMain {
         try (HSSFWorkbook workbook = new HSSFWorkbook()) {
             exportToSheet(workbook, "seat number", seatNumberMap);
             exportToSheet(workbook, "seat status", seatStatusMap);
+            exportToSheet(workbook, "seat assignment fee", seatAssignmentFeeMap);
             exportToSheet(workbook, "seat ssr", seatAttachedSsrMap);
             exportToSheet(workbook, "seat zone", seatZoneAttributeMap);
             exportToSheet(workbook, "seat facility", seatFacilityAttributeMap);
@@ -167,6 +175,14 @@ public class DemoSOAPParserMain {
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
         }
+    }
+
+    private static String buildFeeDetailsString(SeatAssignMentFeeType seatAssignMentFeeType) {
+        return MessageFormat.format("{0} {1} ({2}) | {3}",
+                seatAssignMentFeeType.getAmount(),
+                seatAssignMentFeeType.getCurrency(),
+                seatAssignMentFeeType.getSsrcode(),
+                seatAssignMentFeeType.getPaxtype());
     }
 
     private static void exportToSheet(HSSFWorkbook workbook, String sheetName, Map<Integer, Map<Integer, Object>> statisticsMap) {

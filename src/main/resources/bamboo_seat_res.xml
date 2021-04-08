@@ -67,6 +67,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>2A</SeatNumber>
@@ -81,6 +88,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>1C</SeatNumber>
@@ -95,6 +109,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>2C</SeatNumber>
@@ -109,6 +130,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>1D</SeatNumber>
@@ -123,6 +151,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>2D</SeatNumber>
@@ -137,6 +172,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>1F</SeatNumber>
@@ -151,6 +193,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>2F</SeatNumber>
@@ -165,6 +214,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JPST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>0.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JPST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>J1</SeatNumber>
@@ -208,6 +264,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>4A</SeatNumber>
@@ -222,6 +285,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>5A</SeatNumber>
@@ -236,6 +306,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>6A</SeatNumber>
@@ -250,6 +327,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>7A</SeatNumber>
@@ -264,6 +348,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>8A</SeatNumber>
@@ -278,6 +369,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>9A</SeatNumber>
@@ -292,6 +390,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>10A</SeatNumber>
@@ -306,6 +411,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>11A</SeatNumber>
@@ -322,6 +434,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>12A</SeatNumber>
@@ -338,6 +457,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>13A</SeatNumber>
@@ -352,6 +478,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>14A</SeatNumber>
@@ -366,6 +499,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>15A</SeatNumber>
@@ -380,6 +520,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>16A</SeatNumber>
@@ -394,6 +541,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>17A</SeatNumber>
@@ -408,6 +562,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>18A</SeatNumber>
@@ -422,6 +583,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>19A</SeatNumber>
@@ -436,6 +604,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>20A</SeatNumber>
@@ -450,6 +625,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>21A</SeatNumber>
@@ -464,6 +646,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>22A</SeatNumber>
@@ -478,6 +667,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>23A</SeatNumber>
@@ -492,6 +688,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>24A</SeatNumber>
@@ -506,6 +709,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>25A</SeatNumber>
@@ -520,6 +730,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>26A</SeatNumber>
@@ -534,6 +751,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>27A</SeatNumber>
@@ -548,6 +772,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>28A</SeatNumber>
@@ -562,6 +793,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>29A</SeatNumber>
@@ -576,6 +814,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>3B</SeatNumber>
@@ -588,6 +833,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>4B</SeatNumber>
@@ -600,6 +852,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>5B</SeatNumber>
@@ -612,6 +871,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>6B</SeatNumber>
@@ -624,6 +890,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>7B</SeatNumber>
@@ -636,6 +909,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>8B</SeatNumber>
@@ -648,6 +928,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>9B</SeatNumber>
@@ -660,6 +947,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>10B</SeatNumber>
@@ -672,6 +966,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>11B</SeatNumber>
@@ -686,6 +987,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>12B</SeatNumber>
@@ -700,6 +1008,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>13B</SeatNumber>
@@ -712,6 +1027,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>14B</SeatNumber>
@@ -724,6 +1046,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>15B</SeatNumber>
@@ -736,6 +1065,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>16B</SeatNumber>
@@ -748,6 +1084,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>17B</SeatNumber>
@@ -760,6 +1103,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>18B</SeatNumber>
@@ -772,6 +1122,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>19B</SeatNumber>
@@ -784,6 +1141,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>20B</SeatNumber>
@@ -796,6 +1160,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>21B</SeatNumber>
@@ -808,6 +1179,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>22B</SeatNumber>
@@ -820,6 +1198,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>23B</SeatNumber>
@@ -832,6 +1217,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>24B</SeatNumber>
@@ -844,6 +1236,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>25B</SeatNumber>
@@ -856,6 +1255,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>26B</SeatNumber>
@@ -868,6 +1274,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>27B</SeatNumber>
@@ -880,6 +1293,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>28B</SeatNumber>
@@ -892,6 +1312,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>29B</SeatNumber>
@@ -904,6 +1331,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>3C</SeatNumber>
@@ -918,6 +1352,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>4C</SeatNumber>
@@ -932,6 +1373,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>5C</SeatNumber>
@@ -946,6 +1394,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>6C</SeatNumber>
@@ -960,6 +1415,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>7C</SeatNumber>
@@ -974,6 +1436,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>8C</SeatNumber>
@@ -988,6 +1457,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>9C</SeatNumber>
@@ -1002,6 +1478,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>10C</SeatNumber>
@@ -1016,6 +1499,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>11C</SeatNumber>
@@ -1032,6 +1522,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>12C</SeatNumber>
@@ -1048,6 +1545,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>13C</SeatNumber>
@@ -1062,6 +1566,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>14C</SeatNumber>
@@ -1076,6 +1587,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>15C</SeatNumber>
@@ -1090,6 +1608,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>16C</SeatNumber>
@@ -1104,6 +1629,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>17C</SeatNumber>
@@ -1118,6 +1650,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>18C</SeatNumber>
@@ -1132,6 +1671,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>19C</SeatNumber>
@@ -1146,6 +1692,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>20C</SeatNumber>
@@ -1160,6 +1713,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>21C</SeatNumber>
@@ -1174,6 +1734,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>22C</SeatNumber>
@@ -1188,6 +1755,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>23C</SeatNumber>
@@ -1202,6 +1776,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>24C</SeatNumber>
@@ -1216,6 +1797,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>25C</SeatNumber>
@@ -1230,6 +1818,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>26C</SeatNumber>
@@ -1244,6 +1839,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>27C</SeatNumber>
@@ -1258,6 +1860,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>28C</SeatNumber>
@@ -1272,6 +1881,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>29C</SeatNumber>
@@ -1286,6 +1902,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>3D</SeatNumber>
@@ -1300,6 +1923,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>4D</SeatNumber>
@@ -1314,6 +1944,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>5D</SeatNumber>
@@ -1328,6 +1965,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>6D</SeatNumber>
@@ -1342,6 +1986,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>7D</SeatNumber>
@@ -1356,6 +2007,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>8D</SeatNumber>
@@ -1370,6 +2028,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>9D</SeatNumber>
@@ -1384,6 +2049,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>10D</SeatNumber>
@@ -1398,6 +2070,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>11D</SeatNumber>
@@ -1414,6 +2093,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>12D</SeatNumber>
@@ -1430,6 +2116,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>13D</SeatNumber>
@@ -1444,6 +2137,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>14D</SeatNumber>
@@ -1458,6 +2158,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>15D</SeatNumber>
@@ -1472,6 +2179,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>16D</SeatNumber>
@@ -1486,6 +2200,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>17D</SeatNumber>
@@ -1500,6 +2221,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>18D</SeatNumber>
@@ -1514,6 +2242,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>19D</SeatNumber>
@@ -1528,6 +2263,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>20D</SeatNumber>
@@ -1542,6 +2284,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>21D</SeatNumber>
@@ -1556,6 +2305,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>22D</SeatNumber>
@@ -1570,6 +2326,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>23D</SeatNumber>
@@ -1584,6 +2347,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>24D</SeatNumber>
@@ -1598,6 +2368,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>25D</SeatNumber>
@@ -1612,6 +2389,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>26D</SeatNumber>
@@ -1626,6 +2410,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>27D</SeatNumber>
@@ -1640,6 +2431,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>28D</SeatNumber>
@@ -1654,6 +2452,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>29D</SeatNumber>
@@ -1668,6 +2473,13 @@
                                     <SeatPriorityAttribute>A</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>3E</SeatNumber>
@@ -1680,6 +2492,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>4E</SeatNumber>
@@ -1692,6 +2511,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>5E</SeatNumber>
@@ -1704,6 +2530,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>6E</SeatNumber>
@@ -1716,6 +2549,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>7E</SeatNumber>
@@ -1728,6 +2568,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>8E</SeatNumber>
@@ -1740,6 +2587,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>9E</SeatNumber>
@@ -1752,6 +2606,13 @@
                                     <ZoneAttribute>Z</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>10E</SeatNumber>
@@ -1764,6 +2625,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>11E</SeatNumber>
@@ -1778,6 +2646,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>12E</SeatNumber>
@@ -1792,6 +2667,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>13E</SeatNumber>
@@ -1804,6 +2686,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>14E</SeatNumber>
@@ -1816,6 +2705,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>15E</SeatNumber>
@@ -1828,6 +2724,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>16E</SeatNumber>
@@ -1840,6 +2743,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>17E</SeatNumber>
@@ -1852,6 +2762,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>18E</SeatNumber>
@@ -1864,6 +2781,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>19E</SeatNumber>
@@ -1876,6 +2800,13 @@
                                     <ZoneAttribute>B</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>20E</SeatNumber>
@@ -1888,6 +2819,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>21E</SeatNumber>
@@ -1900,6 +2838,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>22E</SeatNumber>
@@ -1912,6 +2857,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>23E</SeatNumber>
@@ -1924,6 +2876,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>24E</SeatNumber>
@@ -1936,6 +2895,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>25E</SeatNumber>
@@ -1948,6 +2914,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>26E</SeatNumber>
@@ -1960,6 +2933,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>27E</SeatNumber>
@@ -1972,6 +2952,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>28E</SeatNumber>
@@ -1984,6 +2971,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>29E</SeatNumber>
@@ -1996,6 +2990,13 @@
                                     <ZoneAttribute>C</ZoneAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>3F</SeatNumber>
@@ -2010,6 +3011,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>4F</SeatNumber>
@@ -2024,6 +3032,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>5F</SeatNumber>
@@ -2038,6 +3053,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>6F</SeatNumber>
@@ -2052,6 +3074,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>7F</SeatNumber>
@@ -2066,6 +3095,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>40000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JFST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>8F</SeatNumber>
@@ -2080,6 +3116,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>9F</SeatNumber>
@@ -2094,6 +3137,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>10F</SeatNumber>
@@ -2108,6 +3158,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>11F</SeatNumber>
@@ -2124,6 +3181,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>12F</SeatNumber>
@@ -2140,6 +3204,13 @@
                                     <SeatPriorityAttribute>E</SeatPriorityAttribute>
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>90000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JEST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>13F</SeatNumber>
@@ -2154,6 +3225,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>14F</SeatNumber>
@@ -2168,6 +3246,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>15F</SeatNumber>
@@ -2182,6 +3267,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>16F</SeatNumber>
@@ -2196,6 +3288,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>17F</SeatNumber>
@@ -2210,6 +3309,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>18F</SeatNumber>
@@ -2224,6 +3330,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>19F</SeatNumber>
@@ -2238,6 +3351,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>20F</SeatNumber>
@@ -2252,6 +3372,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>21F</SeatNumber>
@@ -2266,6 +3393,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>22F</SeatNumber>
@@ -2280,6 +3414,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>23F</SeatNumber>
@@ -2294,6 +3435,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>24F</SeatNumber>
@@ -2308,6 +3456,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>25F</SeatNumber>
@@ -2322,6 +3477,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>26F</SeatNumber>
@@ -2336,6 +3498,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>27F</SeatNumber>
@@ -2350,6 +3519,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>28F</SeatNumber>
@@ -2364,6 +3540,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>29F</SeatNumber>
@@ -2378,6 +3561,13 @@
                                     <SeatPriorityAttribute>W</SeatPriorityAttribute>
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
+                                    <SeatAssignMentFee>
+                                        <Amount>30000.0</Amount>
+                                        <currency>VND</currency>
+                                        <ssrcode>JNST</ssrcode>
+                                        <feecode>SEAT</feecode>
+                                        <paxtype>ALL</paxtype>
+                                    </SeatAssignMentFee>
                                 </SeatDetails>
                                 <SeatDetails>
                                     <SeatNumber>J3</SeatNumber>
