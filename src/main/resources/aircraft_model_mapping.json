@@ -1,0 +1,18 @@
+{
+  "31b": {
+    "code": "16C/182EY",
+    "model": "AIRBUS 321NEO"
+  },
+  "31c": {
+    "code": "8C/184EY",
+    "model": "AIRBUS 321"
+  },
+  "32a": {
+    "code": "08C/162Y",
+    "model": "AIRBUS 320"
+  },
+  "787a": {
+    "code": "26C/21PEY/247EY",
+    "model": "BOEING 787-9"
+  }
+}
