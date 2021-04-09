@@ -61,7 +61,7 @@ public class DemoSOAPParserMain {
      */
     @SuppressWarnings({"unused", "java:S1481", "java:S106", "java:S125"})
     public static void main(String[] args) throws JAXBException {
-        String aircraftModel = "31b";
+        String aircraftModel = "32f";
         InputStream inputStream = DemoSOAPParserMain.class.getClassLoader()
                 .getResourceAsStream("bamboo_seat_" + aircraftModel + "_res.xml");
         String xmlString = new BufferedReader(new InputStreamReader(Objects

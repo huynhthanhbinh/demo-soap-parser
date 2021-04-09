@@ -11,6 +11,10 @@
     "code": "08C/162Y",
     "model": "AIRBUS 320"
   },
+  "32f": {
+    "code": "08C/168Y",
+    "model": "AIRBUS 320NEO"
+  },
   "787a": {
     "code": "26C/21PEY/247EY",
     "model": "BOEING 787-9"
