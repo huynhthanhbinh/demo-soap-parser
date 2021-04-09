@@ -171,7 +171,7 @@ public class DemoSOAPParserMain {
             exportToSheet(workbook, "seat facility", seatFacilityAttributeMap);
             exportToSheet(workbook, "seat location", seatLocationAttributeMap);
             exportToSheet(workbook, "seat priority", seatPriorityAttributeMap);
-            workbook.write(new FileOutputStream("bamboo_seat_statistics_" + aircraftModel + ".xls"));
+            workbook.write(new FileOutputStream("statistics/bamboo_seat_statistics_" + aircraftModel + ".xls"));
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
         }
