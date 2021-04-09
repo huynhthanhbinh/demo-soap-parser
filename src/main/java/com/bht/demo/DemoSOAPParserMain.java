@@ -1,6 +1,7 @@
 package com.bht.demo;
 
 import com.bht.demo.parser.SOAPParser;
+import com.bht.demo.util.SeatMapUtil;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -101,7 +102,6 @@ public class DemoSOAPParserMain {
         Map<Integer, Map<Integer, Object>> seatAttachedSsrMap = new HashMap<>();
 
         List<CabinDetailsType> cabinDetailsTypes = deckDetailsType.getCabinDetails();
-
         List<Character> seatConfigurationCharacters = Arrays.stream(cabinDetailsTypes.stream()
                 .map(CabinDetailsType::getCompartmentDetails).flatMap(Collection::stream)
                 .map(CompartmentDetailsType::getInternalSeatConfiguration)
@@ -119,7 +119,7 @@ public class DemoSOAPParserMain {
             compartmentDetailsTypes.forEach(compartment -> {
                 String compartmentExternalStartRow = compartment.getStartRow();
                 String compartmentExternalEndRow = compartment.getEndRow();
-                String seatConfiguration = compartment.getSeatConfiguration();
+                String seatMatrix = SeatMapUtil.buildMatrixConfig(compartment.getSeatConfiguration());
                 String internalSeatConfiguration = compartment.getInternalSeatConfiguration();
 
                 List<SeatDetailsType> seatDetailsTypes = compartment.getSeatDetails();
