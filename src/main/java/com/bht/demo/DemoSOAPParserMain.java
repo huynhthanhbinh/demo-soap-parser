@@ -61,8 +61,9 @@ public class DemoSOAPParserMain {
      */
     @SuppressWarnings({"unused", "java:S1481", "java:S106", "java:S125"})
     public static void main(String[] args) throws JAXBException {
+        String aircraftModel = "b787";
         InputStream inputStream = DemoSOAPParserMain.class.getClassLoader()
-                .getResourceAsStream("bamboo_seat_res.xml");
+                .getResourceAsStream("bamboo_seat_" + aircraftModel + "_res.xml");
         String xmlString = new BufferedReader(new InputStreamReader(Objects
                 .requireNonNull(inputStream), StandardCharsets.UTF_8))
                 .lines().collect(Collectors.joining("\n"))
@@ -152,7 +153,6 @@ public class DemoSOAPParserMain {
                 });
             });
         });
-
         System.out.println(seatNumberMap);
         System.out.println(seatStatusMap);
         System.out.println(seatAttachedSsrMap);
@@ -171,7 +171,7 @@ public class DemoSOAPParserMain {
             exportToSheet(workbook, "seat facility", seatFacilityAttributeMap);
             exportToSheet(workbook, "seat location", seatLocationAttributeMap);
             exportToSheet(workbook, "seat priority", seatPriorityAttributeMap);
-            workbook.write(new FileOutputStream("bamboo_seat_statistics.xls"));
+            workbook.write(new FileOutputStream("bamboo_seat_statistics_" + aircraftModel + ".xls"));
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
         }
