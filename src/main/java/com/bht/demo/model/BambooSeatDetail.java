@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 public class BambooSeatDetail extends AbstractModel {
 
-    private Integer rowId = 0;
+    private String rowId = "";
     private String colId = "";
     private String ssrCode = "";
     private boolean nearExit = false;

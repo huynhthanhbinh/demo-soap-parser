@@ -1,0 +1,2064 @@
+{
+  "cabinName": "ECONOMY",
+  "seatMatrix": "11101110111",
+  "colsConfig": "A-B-C-D-E-G-H-J-K",
+  "ssrConfig": {
+    "JLCH": {
+      "code": "JLCH",
+      "desc": "",
+      "color": "",
+      "fee": 30000,
+      "currency": "VND"
+    },
+    "JNST": {
+      "code": "JNST",
+      "desc": "",
+      "color": "",
+      "fee": 30000,
+      "currency": "VND"
+    },
+    "JPET": {
+      "code": "JPET",
+      "desc": "",
+      "color": "",
+      "fee": 150000,
+      "currency": "VND"
+    },
+    "JEST": {
+      "code": "JEST",
+      "desc": "",
+      "color": "",
+      "fee": 90000,
+      "currency": "VND"
+    },
+    "JFST": {
+      "code": "JFST",
+      "desc": "",
+      "color": "",
+      "fee": 40000,
+      "currency": "VND"
+    }
+  },
+  "compartments": [
+    {
+      "matrixConfig": "110111011",
+      "rowIds": [
+        "31",
+        "32",
+        "33"
+      ],
+      "colIds": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "G",
+        "H",
+        "K"
+      ],
+      "seatDetails": [
+        {
+          "rowId": "31",
+          "colId": "A",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "32",
+          "colId": "A",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "33",
+          "colId": "A",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "31",
+          "colId": "C",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "32",
+          "colId": "C",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "33",
+          "colId": "C",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "31",
+          "colId": "D",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "32",
+          "colId": "D",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "33",
+          "colId": "D",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "31",
+          "colId": "E",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "32",
+          "colId": "E",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "33",
+          "colId": "E",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "31",
+          "colId": "G",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "32",
+          "colId": "G",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "33",
+          "colId": "G",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "31",
+          "colId": "H",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "32",
+          "colId": "H",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "33",
+          "colId": "H",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "31",
+          "colId": "K",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "32",
+          "colId": "K",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "33",
+          "colId": "K",
+          "ssrCode": "JPET",
+          "nearExit": false,
+          "canSale": false
+        }
+      ]
+    },
+    {
+      "matrixConfig": "11101110111",
+      "rowIds": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "colIds": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "G",
+        "H",
+        "J",
+        "K"
+      ],
+      "seatDetails": [
+        {
+          "rowId": "34",
+          "colId": "A",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "A",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "A",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "A",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "A",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "A",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "B",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "B",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "B",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "B",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "B",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "B",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "C",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "C",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "C",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "C",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "C",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "C",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "D",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "D",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "D",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "D",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "D",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "D",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "E",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "E",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "E",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "E",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "E",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "E",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "G",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "G",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "G",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "G",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "G",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "G",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "H",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "H",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "H",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "H",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "H",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "H",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "J",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "J",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "J",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "J",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "J",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "J",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "34",
+          "colId": "K",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "35",
+          "colId": "K",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "36",
+          "colId": "K",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "37",
+          "colId": "K",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "38",
+          "colId": "K",
+          "ssrCode": "JFST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "39",
+          "colId": "K",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "40",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "41",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "42",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "43",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "44",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "45",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        }
+      ]
+    },
+    {
+      "matrixConfig": "11101110",
+      "rowIds": [
+        "46"
+      ],
+      "colIds": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "seatDetails": [
+        {
+          "rowId": "46",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "46",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "46",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "46",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "46",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "46",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        }
+      ]
+    },
+    {
+      "matrixConfig": "1110",
+      "rowIds": [
+        "47"
+      ],
+      "colIds": [
+        "A",
+        "B",
+        "C"
+      ],
+      "seatDetails": [
+        {
+          "rowId": "47",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "47",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "47",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        }
+      ]
+    },
+    {
+      "matrixConfig": "11101110111",
+      "rowIds": [
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "colIds": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "G",
+        "H",
+        "J",
+        "K"
+      ],
+      "seatDetails": [
+        {
+          "rowId": "48",
+          "colId": "A",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "A",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "A",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "B",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "B",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "B",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "B",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "C",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "C",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "C",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "D",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "D",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "D",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "E",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "E",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "E",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "G",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "G",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "G",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "H",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "H",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "H",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "J",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "J",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "J",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "J",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "48",
+          "colId": "K",
+          "ssrCode": "JEST",
+          "nearExit": true,
+          "canSale": false
+        },
+        {
+          "rowId": "49",
+          "colId": "K",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "50",
+          "colId": "K",
+          "ssrCode": "JLCH",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "51",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "52",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "53",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "54",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "55",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "56",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "57",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "58",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "59",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "60",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        }
+      ]
+    },
+    {
+      "matrixConfig": "110111011",
+      "rowIds": [
+        "61"
+      ],
+      "colIds": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "G",
+        "H",
+        "K"
+      ],
+      "seatDetails": [
+        {
+          "rowId": "61",
+          "colId": "A",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "61",
+          "colId": "C",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "61",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "61",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "61",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "61",
+          "colId": "H",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "61",
+          "colId": "K",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        }
+      ]
+    },
+    {
+      "matrixConfig": "01110",
+      "rowIds": [
+        "62",
+        "63",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "colIds": [
+        "D",
+        "E",
+        "G"
+      ],
+      "seatDetails": [
+        {
+          "rowId": "62",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "63",
+          "colId": "D",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "62",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "63",
+          "colId": "E",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "62",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        },
+        {
+          "rowId": "63",
+          "colId": "G",
+          "ssrCode": "JNST",
+          "nearExit": false,
+          "canSale": false
+        }
+      ]
+    }
+  ]
+}

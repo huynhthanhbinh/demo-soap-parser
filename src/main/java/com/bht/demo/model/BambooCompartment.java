@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class BambooCompartment extends AbstractModel {
 
     private String matrixConfig = "";
-    private List<Integer> rowIds = new ArrayList<>();
+    private List<String> rowIds = new ArrayList<>();
     private List<String> colIds = new ArrayList<>();
     private List<BambooSeatDetail> seatDetails = new ArrayList<>();
 
