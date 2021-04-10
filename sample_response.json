@@ -7,35 +7,35 @@
       "code": "JLCH",
       "desc": "",
       "color": "",
-      "fee": 30000,
+      "fee": 30000.0,
       "currency": "VND"
     },
     "JNST": {
       "code": "JNST",
       "desc": "",
       "color": "",
-      "fee": 30000,
+      "fee": 30000.0,
       "currency": "VND"
     },
     "JPET": {
       "code": "JPET",
       "desc": "",
       "color": "",
-      "fee": 150000,
+      "fee": 150000.0,
       "currency": "VND"
     },
     "JEST": {
       "code": "JEST",
       "desc": "",
       "color": "",
-      "fee": 90000,
+      "fee": 90000.0,
       "currency": "VND"
     },
     "JFST": {
       "code": "JFST",
       "desc": "",
       "color": "",
-      "fee": 40000,
+      "fee": 40000.0,
       "currency": "VND"
     }
   },
@@ -69,14 +69,14 @@
           "colId": "A",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "33",
           "colId": "A",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "31",
@@ -90,14 +90,14 @@
           "colId": "C",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "33",
           "colId": "C",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "31",
@@ -111,14 +111,14 @@
           "colId": "D",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "33",
           "colId": "D",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "31",
@@ -132,14 +132,14 @@
           "colId": "E",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "33",
           "colId": "E",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "31",
@@ -153,14 +153,14 @@
           "colId": "G",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "33",
           "colId": "G",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "31",
@@ -174,14 +174,14 @@
           "colId": "H",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "33",
           "colId": "H",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "31",
@@ -195,14 +195,14 @@
           "colId": "K",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "33",
           "colId": "K",
           "ssrCode": "JPET",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         }
       ]
     },
@@ -267,56 +267,56 @@
           "colId": "A",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "A",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -351,56 +351,56 @@
           "colId": "B",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "B",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -435,56 +435,56 @@
           "colId": "C",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "C",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -519,56 +519,56 @@
           "colId": "D",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "D",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -603,56 +603,56 @@
           "colId": "E",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "E",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -687,56 +687,56 @@
           "colId": "G",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "G",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -771,56 +771,56 @@
           "colId": "H",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "H",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -855,56 +855,56 @@
           "colId": "J",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "J",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "34",
@@ -939,56 +939,56 @@
           "colId": "K",
           "ssrCode": "JFST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "39",
           "colId": "K",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "40",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "41",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "42",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "43",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "44",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "45",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         }
       ]
     },
@@ -1011,42 +1011,42 @@
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "46",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "46",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "46",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "46",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "46",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         }
       ]
     },
@@ -1066,21 +1066,21 @@
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "47",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "47",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         }
       ]
     },
@@ -1125,84 +1125,84 @@
           "colId": "A",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "A",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1216,84 +1216,84 @@
           "colId": "B",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "B",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "B",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1307,84 +1307,84 @@
           "colId": "C",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "C",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1398,84 +1398,84 @@
           "colId": "D",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "D",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1489,84 +1489,84 @@
           "colId": "E",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "E",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1580,84 +1580,84 @@
           "colId": "G",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "G",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1671,84 +1671,84 @@
           "colId": "H",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "H",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1762,84 +1762,84 @@
           "colId": "J",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "J",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "J",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "48",
@@ -1853,84 +1853,84 @@
           "colId": "K",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "50",
           "colId": "K",
           "ssrCode": "JLCH",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "51",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "52",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "53",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "54",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "55",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "56",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "57",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "58",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "59",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "60",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         }
       ]
     },
@@ -1954,49 +1954,49 @@
           "colId": "A",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "61",
           "colId": "C",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "61",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "61",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "61",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "61",
           "colId": "H",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "61",
           "colId": "K",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         }
       ]
     },
@@ -2021,42 +2021,42 @@
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "63",
           "colId": "D",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "62",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "63",
           "colId": "E",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "62",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         },
         {
           "rowId": "63",
           "colId": "G",
           "ssrCode": "JNST",
           "nearExit": false,
-          "canSale": false
+          "canSale": true
         }
       ]
     }

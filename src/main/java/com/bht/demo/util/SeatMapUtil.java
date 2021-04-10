@@ -105,7 +105,7 @@ public class SeatMapUtil {
                         seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())).findFirst()
                                 .ifPresent(fee -> seatDetail.setSsrCode(fee.getSsrcode()));
                         seatDetail.setNearExit(seat.getLocationAttribute().contains("E"));
-                        seatDetail.setCanSale("AVAILABLE".equals(controlAttribute) || ("RESTRICTED".equals(controlAttribute) && canSaleRestrictedSeat));
+                        seatDetail.setCanSale("Available".equalsIgnoreCase(controlAttribute) || ("Restricted".equalsIgnoreCase(controlAttribute) && canSaleRestrictedSeat));
                         return seatDetail;
                     })
                     .collect(Collectors.toList()));
