@@ -25,7 +25,7 @@ public class DemoSOAPParserMain {
     public static void main(String[] args) throws JAXBException {
         String currency = "VND";
         String aircraftModel = "787a";
-        String cabinFilter = "ECONOMY";
+        String cabinFilter = "BUSINESS";
         boolean canSaleRestrictedSeat = false;
         InputStream inputStream = DemoSOAPParserMain.class.getClassLoader()
                 .getResourceAsStream("bamboo_seat_" + aircraftModel + "_res.xml");
@@ -33,6 +33,7 @@ public class DemoSOAPParserMain {
                 .requireNonNull(inputStream), StandardCharsets.UTF_8))
                 .lines().collect(Collectors.joining("\n"))
                 .replaceAll("\\s*[\\r\\n]+\\s*", "");
+
         BambooSeatResponse bambooSeatResponse = new BambooSeatResponse();
         ShowSeatMapRS showSeatMapRS = SOAPParser.toObject(xmlString, ShowSeatMapRS.class);
         SeatMapInformation seatMapInformation = Objects.requireNonNull(showSeatMapRS).getSeatMapInformation();
@@ -43,8 +44,7 @@ public class DemoSOAPParserMain {
                 .ifPresent(cabin -> {
                     bambooSeatResponse.setCabinName(cabin.getCabinName());
                     List<CompartmentDetailsType> compartmentDetailsTypes = cabin.getCompartmentDetails();
-                    cabinDetailsTypes.stream()
-                            .map(CabinDetailsType::getCompartmentDetails).flatMap(Collection::stream)
+                    compartmentDetailsTypes.stream()
                             .max(Comparator.comparingInt(compartment -> compartment.getInternalSeatConfiguration().length()))
                             .ifPresent(compartment -> {
                                 bambooSeatResponse.setColsConfig(compartment.getInternalSeatConfiguration());
