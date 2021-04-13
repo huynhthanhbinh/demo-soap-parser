@@ -57,24 +57,6 @@ public class SeatMapUtil {
     private SeatMapUtil() {
     }
 
-    public static String buildMatrixConfig(String seatConfig) {
-        if (seatConfig != null && !seatConfig.isEmpty()) {
-            StringBuilder matrixBuilder = new StringBuilder();
-            Arrays.stream(seatConfig
-                    .replace("-0-", "-")
-                    .split("-"))
-                    .forEach(number -> {
-                        int value = Integer.parseInt(number);
-                        for (int i = 0; i < value; i++) {
-                            matrixBuilder.append('1');
-                        }
-                        matrixBuilder.append('0');
-                    });
-            return matrixBuilder.deleteCharAt(matrixBuilder.length() - 1).toString();
-        }
-        return "";
-    }
-
     public static JsonObject toSsrDetailJO(SeatAssignMentFeeType seatAssignmentFee) {
         String ssrCode = seatAssignmentFee.getSsrcode();
         JsonObject ssrAdminConfig = new JsonObject(); // will be get from admin later

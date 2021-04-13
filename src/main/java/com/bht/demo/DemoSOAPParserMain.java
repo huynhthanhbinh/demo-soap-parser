@@ -54,22 +54,24 @@ public class DemoSOAPParserMain {
                                 seatConfig.setColsConfig(SeatMapUtil.buildColMatrix(seatConfiguration, internalSeatConfiguration));
                                 seatConfig.setSeatMatrix(SeatMapUtil.buildFullSeatMatrix(seatConfig.getColsConfig()));
                             });
-                    String noneSeatMatrix = SeatMapUtil.buildNoneSeatMatrix(seatConfig.getColsConfig());
+                    String colsConfig = seatConfig.getColsConfig();
+                    String noneSeatMatrix = SeatMapUtil.buildNoneSeatMatrix(colsConfig);
                     Map<String, Integer> colIndexMap = new HashMap<>();
-                    Arrays.asList(seatConfig.getColsConfig().replace("-", "").split(""))
-                            .forEach(colId -> colIndexMap.put(colId, seatConfig.getColsConfig().indexOf(colId)));
+                    Arrays.asList(colsConfig.replace("-", "").split(""))
+                            .forEach(colId -> colIndexMap.put(colId, colsConfig.indexOf(colId)));
                     seatConfig.setCompartments(compartmentDetailsTypes.stream()
                             .map(SeatMapUtil.toBambooCompartment(noneSeatMatrix, colIndexMap))
                             .collect(Collectors.toList()));
-                    bambooSeatResponse.setSeatConfig(seatConfig);
-                    bambooSeatResponse.setSsrConfig(compartmentDetailsTypes.stream()
-                            .map(CompartmentDetailsType::getSeatDetails).flatMap(Collection::stream)
-                            .flatMap(seat -> seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())))
-                            .collect(Collectors.toMap(SeatAssignMentFeeType::getSsrcode, SeatMapUtil::toSsrDetailJO, (s1, s2) -> s1)));
-                    bambooSeatResponse.setSeatDetails(compartmentDetailsTypes.stream()
+                    List<SeatDetailsType> seatDetailsTypeList = compartmentDetailsTypes.stream()
                             .map(CompartmentDetailsType::getSeatDetails).flatMap(Collection::stream)
                             .filter(seat -> !"0".equals(seat.getExternalColumnName()))
-                            .map(seatDetailsType -> SeatMapUtil.toSeatDetail(seatDetailsType, currency, canSaleRestrictedSeat))
+                            .collect(Collectors.toList());
+                    bambooSeatResponse.setSeatConfig(seatConfig);
+                    bambooSeatResponse.setSsrConfig(seatDetailsTypeList.stream()
+                            .flatMap(seat -> seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())))
+                            .collect(Collectors.toMap(SeatAssignMentFeeType::getSsrcode, SeatMapUtil::toSsrDetailJO, (s1, s2) -> s1)));
+                    bambooSeatResponse.setSeatDetails(seatDetailsTypeList.stream()
+                            .map(seatDetails -> SeatMapUtil.toSeatDetail(seatDetails, currency, canSaleRestrictedSeat))
                             .collect(Collectors.toList()));
                 });
         log.info("End execute...");
