@@ -1,5 +1,6 @@
 package com.bht.demo;
 
+import com.bht.demo.model.BambooSeatConfig;
 import com.bht.demo.model.BambooSeatResponse;
 import com.bht.demo.parser.SOAPParser;
 import com.bht.demo.util.SeatMapUtil;
@@ -30,36 +31,42 @@ public class DemoSOAPParserMain {
                 .requireNonNull(inputStream), StandardCharsets.UTF_8))
                 .lines().collect(Collectors.joining("\n"))
                 .replaceAll("\\s*[\\r\\n]+\\s*", "");
-
         long start = System.currentTimeMillis();
         BambooSeatResponse bambooSeatResponse = new BambooSeatResponse();
         ShowSeatMapRS showSeatMapRS = SOAPParser.toObject(xmlString, ShowSeatMapRS.class);
         SeatMapInformation seatMapInformation = Objects.requireNonNull(showSeatMapRS).getSeatMapInformation();
         SeatMapDetailsType seatMapDetails = seatMapInformation.getSeatMapdetails();
         DeckDetailsType deckDetailsType = seatMapDetails.getDeckDetails().get(0);
-        List<CabinDetailsType> cabinDetailsTypes = deckDetailsType.getCabinDetails();
-        cabinDetailsTypes.stream().filter(cabin -> cabinFilter.equalsIgnoreCase(cabin.getCabinName())).findFirst()
+        deckDetailsType.getCabinDetails().stream()
+                .filter(cabin -> cabinFilter.equalsIgnoreCase(cabin.getCabinName())).findFirst()
                 .ifPresent(cabin -> {
-                    bambooSeatResponse.setCabinName(cabin.getCabinName());
+                    BambooSeatConfig seatConfig = new BambooSeatConfig();
+                    seatConfig.setCabinName(cabin.getCabinName());
                     List<CompartmentDetailsType> compartmentDetailsTypes = cabin.getCompartmentDetails();
                     compartmentDetailsTypes.stream()
                             .max(Comparator.comparingInt(compartment -> compartment.getInternalSeatConfiguration().length())) // biggest compartment
                             .ifPresent(compartment -> {
                                 String seatConfiguration = compartment.getSeatConfiguration(); // A-B-C-D-E-G-H-J-K
                                 String internalSeatConfiguration = compartment.getInternalSeatConfiguration(); // 3-3-3
-                                bambooSeatResponse.setColsConfig(SeatMapUtil.buildColMatrix(seatConfiguration, internalSeatConfiguration));
-                                bambooSeatResponse.setSeatMatrix(SeatMapUtil.buildFullSeatMatrix(bambooSeatResponse.getColsConfig()));
+                                seatConfig.setColsConfig(SeatMapUtil.buildColMatrix(seatConfiguration, internalSeatConfiguration));
+                                seatConfig.setSeatMatrix(SeatMapUtil.buildFullSeatMatrix(seatConfig.getColsConfig()));
                             });
-                    String noneSeatMatrix = SeatMapUtil.buildNoneSeatMatrix(bambooSeatResponse.getColsConfig());
+                    String noneSeatMatrix = SeatMapUtil.buildNoneSeatMatrix(seatConfig.getColsConfig());
                     Map<String, Integer> colIndexMap = new HashMap<>();
-                    Arrays.asList(bambooSeatResponse.getColsConfig().replace("-", "").split(""))
-                            .forEach(colId -> colIndexMap.put(colId, bambooSeatResponse.getColsConfig().indexOf(colId)));
+                    Arrays.asList(seatConfig.getColsConfig().replace("-", "").split(""))
+                            .forEach(colId -> colIndexMap.put(colId, seatConfig.getColsConfig().indexOf(colId)));
+                    seatConfig.setCompartments(compartmentDetailsTypes.stream()
+                            .map(SeatMapUtil.toBambooCompartment(noneSeatMatrix, colIndexMap))
+                            .collect(Collectors.toList()));
+                    bambooSeatResponse.setSeatConfig(seatConfig);
                     bambooSeatResponse.setSsrConfig(compartmentDetailsTypes.stream()
                             .map(CompartmentDetailsType::getSeatDetails).flatMap(Collection::stream)
                             .flatMap(seat -> seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())))
                             .collect(Collectors.toMap(SeatAssignMentFeeType::getSsrcode, SeatMapUtil::toSsrDetailJO, (s1, s2) -> s1)));
-                    bambooSeatResponse.setCompartments(compartmentDetailsTypes.stream()
-                            .map(SeatMapUtil.toBambooCompartment(noneSeatMatrix, colIndexMap, canSaleRestrictedSeat, currency))
+                    bambooSeatResponse.setSeatDetails(compartmentDetailsTypes.stream()
+                            .map(CompartmentDetailsType::getSeatDetails).flatMap(Collection::stream)
+                            .filter(seat -> !"0".equals(seat.getExternalColumnName()))
+                            .map(seatDetailsType -> SeatMapUtil.toSeatDetail(seatDetailsType, currency, canSaleRestrictedSeat))
                             .collect(Collectors.toList()));
                 });
         System.out.println(System.currentTimeMillis() - start);

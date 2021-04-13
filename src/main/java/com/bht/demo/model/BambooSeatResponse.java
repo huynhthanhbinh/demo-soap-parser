@@ -12,37 +12,31 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * @author bht
+ * @author binhhuynh1
  */
 @Getter
 @Setter
 public class BambooSeatResponse extends AbstractModel {
 
-    private String cabinName = "";
-    private String seatMatrix = ""; // 11101110111
-    private String colsConfig = ""; // A-B-C-D-E-G-H-J-K
+    private BambooSeatConfig seatConfig;
     private Map<String, Object> ssrConfig = new HashMap<>();
-    private List<BambooCompartment> compartments = new ArrayList<>();
+    private List<BambooSeatDetail> seatDetails = new ArrayList<>();
 
     public static class FieldName {
         private FieldName() {
         }
 
-        public static final String CABIN_NAME = "cabinName";
         public static final String SSR_CONFIG = "ssrConfig";
-        public static final String COLS_CONFIG = "colsConfig";
-        public static final String SEAT_MATRIX = "seatMatrix";
-        public static final String COMPARTMENTS = "compartments";
+        public static final String SEAT_CONFIG = "seatConfig";
+        public static final String SEAT_DETAILS = "seatDetails";
     }
 
     @Override
     public JsonObject toJson() {
-        List<Object> compartmentJOs = compartments.stream().map(BambooCompartment::toJson).collect(Collectors.toList());
+        List<JsonObject> seatDetailJOs = seatDetails.stream().map(BambooSeatDetail::toJson).collect(Collectors.toList());
         return new JsonObject()
-                .put(FieldName.CABIN_NAME, cabinName)
-                .put(FieldName.SEAT_MATRIX, seatMatrix)
-                .put(FieldName.COLS_CONFIG, colsConfig)
+                .put(FieldName.SEAT_CONFIG, seatConfig != null ? seatConfig.toJson() : null)
                 .put(FieldName.SSR_CONFIG, new JsonObject(ssrConfig))
-                .put(FieldName.COMPARTMENTS, new JsonArray(compartmentJOs));
+                .put(FieldName.SEAT_DETAILS, new JsonArray(seatDetailJOs));
     }
 }

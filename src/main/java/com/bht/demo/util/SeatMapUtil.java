@@ -88,32 +88,30 @@ public class SeatMapUtil {
         return ssrDetail.toJson();
     }
 
-    public static Function<CompartmentDetailsType, BambooCompartment> toBambooCompartment(String noneSeatMatrix, Map<String, Integer> colIndexMap, boolean canSaleRestrictedSeat, String currency) {
+    public static Function<CompartmentDetailsType, BambooCompartment> toBambooCompartment(String noneSeatMatrix, Map<String, Integer> colIndexMap) {
         return compartment -> {
             List<SeatDetailsType> seatDetailsTypes = compartment.getSeatDetails().stream()
                     .filter(seat -> !"0".equals(seat.getExternalColumnName())) // not a JumpSeat !!!
                     .collect(Collectors.toList());
-
             BambooCompartment bambooCompartment = new BambooCompartment();
             bambooCompartment.setColIds(Arrays.asList(compartment.getInternalSeatConfiguration().split("-")));
             bambooCompartment.setRowIds(seatDetailsTypes.stream().map(SeatDetailsType::getExternalRowNumber).distinct().collect(Collectors.toList()));
             bambooCompartment.setMatrixConfig(buildCompartmentConfig(bambooCompartment.getColIds(), noneSeatMatrix, colIndexMap));
-            bambooCompartment.setSeatDetails(seatDetailsTypes.stream()
-                    .map(seat -> {
-                        String controlAttribute = seat.getControlAttribute();
-                        BambooSeatDetail seatDetail = new BambooSeatDetail();
-                        seatDetail.setRowId(seat.getExternalRowNumber());
-                        seatDetail.setColId(seat.getExternalColumnName());
-                        seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())).findFirst()
-                                .ifPresent(fee -> seatDetail.setSsrCode(fee.getSsrcode()));
-                        seatDetail.setNearExit(seat.getLocationAttribute().contains("E"));
-                        seatDetail.setCanSale("Available".equalsIgnoreCase(controlAttribute) || ("Restricted".equalsIgnoreCase(controlAttribute) && canSaleRestrictedSeat));
-                        return seatDetail;
-                    })
-                    .collect(Collectors.toList()));
-
             return bambooCompartment;
         };
+    }
+
+    public static BambooSeatDetail toSeatDetail(SeatDetailsType seatDetailsType, String currency, boolean canSaleRestrictedSeat) {
+        String controlAttribute = seatDetailsType.getControlAttribute();
+        BambooSeatDetail seatDetail = new BambooSeatDetail();
+        seatDetail.setRowId(seatDetailsType.getExternalRowNumber());
+        seatDetail.setColId(seatDetailsType.getExternalColumnName());
+        seatDetailsType.getSeatAssignMentFee().stream()
+                .filter(fee -> currency.equals(fee.getCurrency())).findFirst()
+                .ifPresent(fee -> seatDetail.setSsrCode(fee.getSsrcode()));
+        seatDetail.setNearExit(seatDetailsType.getLocationAttribute().contains("E"));
+        seatDetail.setCanSale("Available".equalsIgnoreCase(controlAttribute) || ("Restricted".equalsIgnoreCase(controlAttribute) && canSaleRestrictedSeat));
+        return seatDetail;
     }
 
     /**
@@ -157,7 +155,7 @@ public class SeatMapUtil {
      * @return 000-000-000
      */
     public static String buildNoneSeatMatrix(String colMatrix) {
-        return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Za-z]", "0");
+        return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Z]", "0");
     }
 
     /**
@@ -165,6 +163,6 @@ public class SeatMapUtil {
      * @return 111-111-111
      */
     public static String buildFullSeatMatrix(String colMatrix) {
-        return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Za-z]", "1");
+        return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Z]", "1");
     }
 }
