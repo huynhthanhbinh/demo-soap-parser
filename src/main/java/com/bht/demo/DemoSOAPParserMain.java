@@ -45,9 +45,12 @@ public class DemoSOAPParserMain {
                     bambooSeatResponse.setCabinName(cabin.getCabinName());
                     List<CompartmentDetailsType> compartmentDetailsTypes = cabin.getCompartmentDetails();
                     compartmentDetailsTypes.stream()
-                            .max(Comparator.comparingInt(compartment -> compartment.getInternalSeatConfiguration().length()))
+                            .max(Comparator.comparingInt(compartment -> compartment.getInternalSeatConfiguration().length())) // biggest compartment
                             .ifPresent(compartment -> {
-                                bambooSeatResponse.setColsConfig(compartment.getInternalSeatConfiguration());
+                                String seatConfiguration = compartment.getSeatConfiguration(); // A-B-C-D-E-G-H-J-K
+                                String internalSeatConfiguration = compartment.getInternalSeatConfiguration(); // 3-3-3
+                                String colsConfig = SeatMapUtil.buildColMatrix(seatConfiguration, internalSeatConfiguration);
+                                bambooSeatResponse.setColsConfig(colsConfig);
                                 bambooSeatResponse.setSeatMatrix(SeatMapUtil.buildMatrixConfig(compartment.getSeatConfiguration()));
                             });
                     bambooSeatResponse.setSsrConfig(compartmentDetailsTypes.stream()
