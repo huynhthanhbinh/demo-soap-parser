@@ -10,6 +10,7 @@ import org.bamboo.model.flightport.SeatDetailsType;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -41,13 +42,13 @@ import java.util.stream.Collectors;
  * ++ Compartment3: 1-2-1 (DEC: A-D-G-K), from row 15 to row 19 (5 rows) => 101101
  * <p>
  * - ECONOMY: from row 31 to row 63 (33 rows) => Cabin2
- * ++ Compartment1: 2-3-2 (DEC: A - C-D-E-G-H - K), from row 31 to row 33 (3 rows) => 110111011
- * ++ Compartment2: 3-3-3 (DEC: A-B-C-D-E-G-H-J-K), from row 34 to row 45 (12 rows) => 11101110111
- * ++ Compartment3: 3-3-0 (DEC: A-B-C-D-E-G      ), from row 46 to row 46 (1 row) => 11101110
- * ++ Compartment4: 3-0-0 (DEC: A-B-C            ), from row 47 to row 47 (1 row) => 1110
- * ++ Compartment5: 3-3-3 (DEC: A-B-C-D-E-G-H-J-K), from row 48 to row 60 (13 rows) => 11101110111
- * ++ Compartment6: 2-3-2 (DEC: A - C-D-E-G-H - K), from row 61 to row 61 (1 row) => 110111011
- * ++ Compartment7: 0-3-0 (DEC:       D-E-G      ), from row 62 to row 63 (2 rows) => 01110
+ * ++ Compartment1: 2-3-2 (DEC: A - C-D-E-G-H - K), from row 31 to row 33 (3 rows)  => 101-111-101
+ * ++ Compartment2: 3-3-3 (DEC: A-B-C-D-E-G-H-J-K), from row 34 to row 45 (12 rows) => 111-111-111
+ * ++ Compartment3: 3-3-0 (DEC: A-B-C-D-E-G      ), from row 46 to row 46 (1 row)   => 111-111-000
+ * ++ Compartment4: 3-0-0 (DEC: A-B-C            ), from row 47 to row 47 (1 row)   => 111-000-000
+ * ++ Compartment5: 3-3-3 (DEC: A-B-C-D-E-G-H-J-K), from row 48 to row 60 (13 rows) => 111-111-111
+ * ++ Compartment6: 2-3-2 (DEC: A - C-D-E-G-H - K), from row 61 to row 61 (1 row)   => 101-111-101
+ * ++ Compartment7: 0-3-0 (DEC:       D-E-G      ), from row 62 to row 63 (2 rows)  => 000-111-000
  *
  * @author binhhuynh1
  */
@@ -87,7 +88,7 @@ public class SeatMapUtil {
         return ssrDetail.toJson();
     }
 
-    public static Function<CompartmentDetailsType, BambooCompartment> toBambooCompartment(String noneSeatMatrix, boolean canSaleRestrictedSeat, String currency) {
+    public static Function<CompartmentDetailsType, BambooCompartment> toBambooCompartment(String noneSeatMatrix, Map<String, Integer> colIndexMap, boolean canSaleRestrictedSeat, String currency) {
         return compartment -> {
             List<SeatDetailsType> seatDetailsTypes = compartment.getSeatDetails().stream()
                     .filter(seat -> !"0".equals(seat.getExternalColumnName())) // not a JumpSeat !!!
@@ -96,7 +97,7 @@ public class SeatMapUtil {
             BambooCompartment bambooCompartment = new BambooCompartment();
             bambooCompartment.setColIds(Arrays.asList(compartment.getInternalSeatConfiguration().split("-")));
             bambooCompartment.setRowIds(seatDetailsTypes.stream().map(SeatDetailsType::getExternalRowNumber).distinct().collect(Collectors.toList()));
-            bambooCompartment.setMatrixConfig(buildMatrixConfig(compartment.getSeatConfiguration()));
+            bambooCompartment.setMatrixConfig(buildCompartmentConfig(bambooCompartment.getColIds(), noneSeatMatrix, colIndexMap));
             bambooCompartment.setSeatDetails(seatDetailsTypes.stream()
                     .map(seat -> {
                         String controlAttribute = seat.getControlAttribute();
@@ -110,10 +111,16 @@ public class SeatMapUtil {
                         return seatDetail;
                     })
                     .collect(Collectors.toList()));
+
             return bambooCompartment;
         };
     }
 
+    /**
+     * @param seatConfiguration         3-3-3
+     * @param internalSeatConfiguration A-B-C-D-E-F-G-H-K
+     * @return ABC-DEG-HJK
+     */
     public static String buildColMatrix(String seatConfiguration, String internalSeatConfiguration) {
         if (!StringUtil.isEmpty(seatConfiguration) && !StringUtil.isEmpty(internalSeatConfiguration)) {
             StringBuilder stringBuilder = new StringBuilder(internalSeatConfiguration.replace("-", ""));
@@ -130,10 +137,33 @@ public class SeatMapUtil {
         return "";
     }
 
+    /**
+     * @param colIds         [A,C,D,E,F,G,K]
+     * @param noneSeatMatrix 000-000-000
+     * @param colIndexMap    { A:0, B:1, C:2, D:4, E:5, F:6, G:8, H:9, K:10 }
+     * @return 101-111-101
+     */
+    public static String buildCompartmentConfig(List<String> colIds, String noneSeatMatrix, Map<String, Integer> colIndexMap) {
+        if (!colIds.isEmpty()) {
+            StringBuilder stringBuilder = new StringBuilder(noneSeatMatrix);
+            colIds.forEach(existedCol -> stringBuilder.setCharAt(colIndexMap.get(existedCol), '1'));
+            return stringBuilder.toString();
+        }
+        return noneSeatMatrix;
+    }
+
+    /**
+     * @param colMatrix ABC-DEF-GHK
+     * @return 000-000-000
+     */
     public static String buildNoneSeatMatrix(String colMatrix) {
         return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Za-z]", "0");
     }
 
+    /**
+     * @param colMatrix ABC-DEF-GHK
+     * @return 111-111-111
+     */
     public static String buildFullSeatMatrix(String colMatrix) {
         return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Za-z]", "1");
     }

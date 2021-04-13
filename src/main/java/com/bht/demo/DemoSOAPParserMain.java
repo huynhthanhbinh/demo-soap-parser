@@ -10,10 +10,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -25,7 +22,7 @@ public class DemoSOAPParserMain {
     public static void main(String[] args) throws JAXBException {
         String currency = "VND";
         String aircraftModel = "787a";
-        String cabinFilter = "BUSINESS";
+        String cabinFilter = "ECONOMY";
         boolean canSaleRestrictedSeat = false;
         InputStream inputStream = DemoSOAPParserMain.class.getClassLoader()
                 .getResourceAsStream("bamboo_seat_" + aircraftModel + "_res.xml");
@@ -54,12 +51,15 @@ public class DemoSOAPParserMain {
                                 bambooSeatResponse.setSeatMatrix(SeatMapUtil.buildFullSeatMatrix(bambooSeatResponse.getColsConfig()));
                             });
                     String noneSeatMatrix = SeatMapUtil.buildNoneSeatMatrix(bambooSeatResponse.getColsConfig());
+                    Map<String, Integer> colIndexMap = new HashMap<>();
+                    Arrays.asList(bambooSeatResponse.getColsConfig().replace("-", "").split(""))
+                            .forEach(colId -> colIndexMap.put(colId, bambooSeatResponse.getColsConfig().indexOf(colId)));
                     bambooSeatResponse.setSsrConfig(compartmentDetailsTypes.stream()
                             .map(CompartmentDetailsType::getSeatDetails).flatMap(Collection::stream)
                             .flatMap(seat -> seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())))
                             .collect(Collectors.toMap(SeatAssignMentFeeType::getSsrcode, SeatMapUtil::toSsrDetailJO, (s1, s2) -> s1)));
                     bambooSeatResponse.setCompartments(compartmentDetailsTypes.stream()
-                            .map(SeatMapUtil.toBambooCompartment(noneSeatMatrix, canSaleRestrictedSeat, currency))
+                            .map(SeatMapUtil.toBambooCompartment(noneSeatMatrix, colIndexMap, canSaleRestrictedSeat, currency))
                             .collect(Collectors.toList()));
                 });
         System.out.println(System.currentTimeMillis() - start);
