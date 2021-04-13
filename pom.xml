@@ -13,28 +13,58 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <source.directory>src/main/java</source.directory>
+        <resources.directory>src/main/resources</resources.directory>
+        <basePackage>com.bht.demo</basePackage>
+        <start-class>com.bht.demo.DemoSOAPParserMain</start-class>
+
+        <vertx.version>4.0.3</vertx.version>
+        <log4j.version>2.13.3</log4j.version>
+        <lombok.version>1.18.12</lombok.version>
+        <jaxb-api.version>2.3.1</jaxb-api.version>
+        <apache-poi.version>5.0.0</apache-poi.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            <version>2.3.1</version>
+            <version>${jaxb-api.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>5.0.0</version>
+            <version>${apache-poi.version}</version>
         </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-core</artifactId>
-            <version>4.0.3</version>
+            <version>${vertx.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>demo-soap-parser</finalName>
+        <resources>
+            <resource>
+                <directory>${resources.directory}</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
 </project>

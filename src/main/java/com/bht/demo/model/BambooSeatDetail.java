@@ -21,8 +21,8 @@ public class BambooSeatDetail extends AbstractModel {
         private FieldName() {
         }
 
-        public static final String ROW_ID = "rowId";
-        public static final String COL_ID = "colId";
+        public static final String ROW_ID = "row";
+        public static final String COL_ID = "col";
         public static final String SSR_CODE = "ssrCode";
         public static final String NEAR_EXIT = "nearExit";
         public static final String CAN_SALE = "canSale";

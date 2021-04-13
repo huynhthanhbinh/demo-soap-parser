@@ -4,6 +4,7 @@ import com.bht.demo.model.BambooSeatConfig;
 import com.bht.demo.model.BambooSeatResponse;
 import com.bht.demo.parser.SOAPParser;
 import com.bht.demo.util.SeatMapUtil;
+import lombok.extern.log4j.Log4j2;
 import org.bamboo.model.flightport.*;
 
 import javax.xml.bind.JAXBException;
@@ -17,6 +18,7 @@ import java.util.stream.Collectors;
 /**
  * @author binhhuynh1
  */
+@Log4j2
 public class DemoSOAPParserMain {
 
     @SuppressWarnings("ConstantConditions")
@@ -31,7 +33,8 @@ public class DemoSOAPParserMain {
                 .requireNonNull(inputStream), StandardCharsets.UTF_8))
                 .lines().collect(Collectors.joining("\n"))
                 .replaceAll("\\s*[\\r\\n]+\\s*", "");
-        long start = System.currentTimeMillis();
+
+        log.info("Start execute...");
         BambooSeatResponse bambooSeatResponse = new BambooSeatResponse();
         ShowSeatMapRS showSeatMapRS = SOAPParser.toObject(xmlString, ShowSeatMapRS.class);
         SeatMapInformation seatMapInformation = Objects.requireNonNull(showSeatMapRS).getSeatMapInformation();
@@ -69,7 +72,7 @@ public class DemoSOAPParserMain {
                             .map(seatDetailsType -> SeatMapUtil.toSeatDetail(seatDetailsType, currency, canSaleRestrictedSeat))
                             .collect(Collectors.toList()));
                 });
-        System.out.println(System.currentTimeMillis() - start);
-        System.out.println(bambooSeatResponse);
+        log.info("End execute...");
+        log.info(bambooSeatResponse);
     }
 }
