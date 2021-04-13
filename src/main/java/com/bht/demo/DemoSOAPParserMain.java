@@ -34,6 +34,7 @@ public class DemoSOAPParserMain {
                 .lines().collect(Collectors.joining("\n"))
                 .replaceAll("\\s*[\\r\\n]+\\s*", "");
 
+        long start = System.currentTimeMillis();
         BambooSeatResponse bambooSeatResponse = new BambooSeatResponse();
         ShowSeatMapRS showSeatMapRS = SOAPParser.toObject(xmlString, ShowSeatMapRS.class);
         SeatMapInformation seatMapInformation = Objects.requireNonNull(showSeatMapRS).getSeatMapInformation();
@@ -61,6 +62,7 @@ public class DemoSOAPParserMain {
                             .map(SeatMapUtil.toBambooCompartment(noneSeatMatrix, canSaleRestrictedSeat, currency))
                             .collect(Collectors.toList()));
                 });
+        System.out.println(System.currentTimeMillis() - start);
         System.out.println(bambooSeatResponse);
     }
 }
