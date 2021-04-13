@@ -8,7 +8,6 @@ import org.bamboo.model.flightport.CompartmentDetailsType;
 import org.bamboo.model.flightport.SeatAssignMentFeeType;
 import org.bamboo.model.flightport.SeatDetailsType;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
@@ -57,24 +56,6 @@ public class SeatMapUtil {
     private SeatMapUtil() {
     }
 
-    public static String buildZeroMatrixConfig(String seatConfiguration) {
-        if (seatConfiguration != null && !seatConfiguration.isEmpty()) {
-            StringBuilder matrixBuilder = new StringBuilder();
-            Arrays.stream(seatConfiguration
-                    .replace("-0-", "-")
-                    .split("-"))
-                    .forEach(number -> {
-                        int value = Integer.parseInt(number);
-                        for (int i = 0; i < value; i++) {
-                            matrixBuilder.append('0');
-                        }
-                        matrixBuilder.append('-');
-                    });
-            return matrixBuilder.deleteCharAt(matrixBuilder.length() - 1).toString(); // remove last '-'
-        }
-        return "";
-    }
-
     public static String buildMatrixConfig(String seatConfig) {
         if (seatConfig != null && !seatConfig.isEmpty()) {
             StringBuilder matrixBuilder = new StringBuilder();
@@ -106,15 +87,17 @@ public class SeatMapUtil {
         return ssrDetail.toJson();
     }
 
-    public static Function<CompartmentDetailsType, BambooCompartment> toBambooCompartment(boolean canSaleRestrictedSeat, String currency) {
+    public static Function<CompartmentDetailsType, BambooCompartment> toBambooCompartment(String noneSeatMatrix, boolean canSaleRestrictedSeat, String currency) {
         return compartment -> {
-            List<SeatDetailsType> seatDetailsTypes = compartment.getSeatDetails();
+            List<SeatDetailsType> seatDetailsTypes = compartment.getSeatDetails().stream()
+                    .filter(seat -> !"0".equals(seat.getExternalColumnName())) // not a JumpSeat !!!
+                    .collect(Collectors.toList());
+
             BambooCompartment bambooCompartment = new BambooCompartment();
             bambooCompartment.setColIds(Arrays.asList(compartment.getInternalSeatConfiguration().split("-")));
             bambooCompartment.setRowIds(seatDetailsTypes.stream().map(SeatDetailsType::getExternalRowNumber).distinct().collect(Collectors.toList()));
             bambooCompartment.setMatrixConfig(buildMatrixConfig(compartment.getSeatConfiguration()));
             bambooCompartment.setSeatDetails(seatDetailsTypes.stream()
-                    .filter(seat -> !"0".equals(seat.getExternalColumnName()))
                     .map(seat -> {
                         String controlAttribute = seat.getControlAttribute();
                         BambooSeatDetail seatDetail = new BambooSeatDetail();
@@ -142,8 +125,16 @@ public class SeatMapUtil {
                 stringBuilder.insert(offset, '-');
                 sumPrev += nSeat;
             }
-            return stringBuilder.toString();
+            return stringBuilder.deleteCharAt(stringBuilder.length() - 1).toString();
         }
         return "";
+    }
+
+    public static String buildNoneSeatMatrix(String colMatrix) {
+        return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Za-z]", "0");
+    }
+
+    public static String buildFullSeatMatrix(String colMatrix) {
+        return (StringUtil.isEmpty(colMatrix)) ? "" : colMatrix.replaceAll("[A-Za-z]", "1");
     }
 }

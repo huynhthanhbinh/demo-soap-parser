@@ -49,16 +49,16 @@ public class DemoSOAPParserMain {
                             .ifPresent(compartment -> {
                                 String seatConfiguration = compartment.getSeatConfiguration(); // A-B-C-D-E-G-H-J-K
                                 String internalSeatConfiguration = compartment.getInternalSeatConfiguration(); // 3-3-3
-                                String colsConfig = SeatMapUtil.buildColMatrix(seatConfiguration, internalSeatConfiguration);
-                                bambooSeatResponse.setColsConfig(colsConfig);
-                                bambooSeatResponse.setSeatMatrix(SeatMapUtil.buildMatrixConfig(compartment.getSeatConfiguration()));
+                                bambooSeatResponse.setColsConfig(SeatMapUtil.buildColMatrix(seatConfiguration, internalSeatConfiguration));
+                                bambooSeatResponse.setSeatMatrix(SeatMapUtil.buildFullSeatMatrix(bambooSeatResponse.getColsConfig()));
                             });
+                    String noneSeatMatrix = SeatMapUtil.buildNoneSeatMatrix(bambooSeatResponse.getColsConfig());
                     bambooSeatResponse.setSsrConfig(compartmentDetailsTypes.stream()
                             .map(CompartmentDetailsType::getSeatDetails).flatMap(Collection::stream)
                             .flatMap(seat -> seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())))
                             .collect(Collectors.toMap(SeatAssignMentFeeType::getSsrcode, SeatMapUtil::toSsrDetailJO, (s1, s2) -> s1)));
                     bambooSeatResponse.setCompartments(compartmentDetailsTypes.stream()
-                            .map(SeatMapUtil.toBambooCompartment(canSaleRestrictedSeat, currency))
+                            .map(SeatMapUtil.toBambooCompartment(noneSeatMatrix, canSaleRestrictedSeat, currency))
                             .collect(Collectors.toList()));
                 });
         System.out.println(bambooSeatResponse);
