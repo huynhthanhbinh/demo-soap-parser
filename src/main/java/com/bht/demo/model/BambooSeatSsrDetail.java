@@ -14,7 +14,9 @@ public class BambooSeatSsrDetail extends AbstractModel {
     private String code = "";
     private String desc = "";
     private String color = "";
-    private Double fee = 0.0D;
+    private Double fareBase = 0.0D;
+    private Double fareTax = 0.0D;
+    private Double totalFare = 0.0D;
     private String currency = "VND";
 
     public static class FieldName {
@@ -24,7 +26,9 @@ public class BambooSeatSsrDetail extends AbstractModel {
         public static final String CODE = "code";
         public static final String DESC = "desc";
         public static final String COLOR = "color";
-        public static final String FEE = "fee";
+        public static final String FARE_BASE = "fareBase";
+        public static final String FARE_TAX = "fareTax";
+        public static final String TOTAL_FARE = "totalFare";
         public static final String CURRENCY = "currency";
     }
 
@@ -34,7 +38,9 @@ public class BambooSeatSsrDetail extends AbstractModel {
                 .put(FieldName.CODE, code)
                 .put(FieldName.DESC, desc)
                 .put(FieldName.COLOR, color)
-                .put(FieldName.FEE, fee)
+                .put(FieldName.FARE_BASE, fareBase)
+                .put(FieldName.FARE_TAX, fareTax)
+                .put(FieldName.TOTAL_FARE, totalFare)
                 .put(FieldName.CURRENCY, currency);
     }
 }

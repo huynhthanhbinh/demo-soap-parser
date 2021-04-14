@@ -36,12 +36,12 @@ import java.util.stream.Collectors;
  * <p>
  * BOEING A787 (40 rows / 2 cabins)
  * <p>
- * - BUSINESS: from row 11 to row 19 (7 rows) : (ignore row 13 and row 14) => Cabin1
- * ++ Compartment1: 1-0-1 (DEC: A  -  K), from row 11 to row 11 (1 row) => 101
- * ++ Compartment2: 1-2-1 (DEC: A-D-G-K), from row 12 to row 12 (1 row) => 101101
- * ++ Compartment3: 1-2-1 (DEC: A-D-G-K), from row 15 to row 19 (5 rows) => 101101
+ * - BUSINESS: from row 11 to row 19 (7 rows) : (ignore row 13 and row 14) => Cabin1 (full seat matrix: 1-11-1)
+ * ++ Compartment1: 1-0-1 (DEC: A  -  K), from row 11 to row 11 (1 row)  => 1-00-1
+ * ++ Compartment2: 1-2-1 (DEC: A-D-G-K), from row 12 to row 12 (1 row)  => 1-11-1
+ * ++ Compartment3: 1-2-1 (DEC: A-D-G-K), from row 15 to row 19 (5 rows) => 1-11-1
  * <p>
- * - ECONOMY: from row 31 to row 63 (33 rows) => Cabin2
+ * - ECONOMY: from row 31 to row 63 (33 rows) => Cabin2 (full seat matrix: 111-111-111)
  * ++ Compartment1: 2-3-2 (DEC: A - C-D-E-G-H - K), from row 31 to row 33 (3 rows)  => 101-111-101
  * ++ Compartment2: 3-3-3 (DEC: A-B-C-D-E-G-H-J-K), from row 34 to row 45 (12 rows) => 111-111-111
  * ++ Compartment3: 3-3-0 (DEC: A-B-C-D-E-G      ), from row 46 to row 46 (1 row)   => 111-111-000
@@ -64,7 +64,9 @@ public class SeatMapUtil {
         BambooSeatSsrDetail ssrDetail = new BambooSeatSsrDetail();
         ssrDetail.setCode(ssrCode);
         ssrDetail.setCurrency(seatAssignmentFee.getCurrency());
-        ssrDetail.setFee(seatAssignmentFee.getAmount());
+        ssrDetail.setFareBase(seatAssignmentFee.getAmount());
+        ssrDetail.setFareTax(ssrDetail.getFareBase() * 0.1D);
+        ssrDetail.setTotalFare(ssrDetail.getFareBase() + ssrDetail.getFareTax());
         ssrDetail.setDesc(config.getString("desc", ""));
         ssrDetail.setColor(config.getString("color", ""));
         return ssrDetail.toJson();
