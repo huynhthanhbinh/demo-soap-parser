@@ -265,7 +265,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -286,7 +286,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -307,7 +307,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -328,7 +328,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -349,7 +349,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -370,7 +370,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -391,7 +391,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -412,7 +412,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -435,7 +435,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -458,7 +458,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -477,7 +477,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -496,7 +496,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -515,7 +515,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -534,7 +534,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -553,7 +553,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -572,7 +572,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -591,7 +591,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -610,7 +610,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -631,7 +631,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -652,7 +652,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -673,7 +673,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -694,7 +694,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -715,7 +715,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -736,7 +736,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -757,7 +757,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -778,7 +778,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -799,7 +799,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -820,7 +820,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -843,7 +843,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -866,7 +866,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -887,7 +887,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -908,7 +908,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -929,7 +929,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -950,7 +950,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -971,7 +971,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -992,7 +992,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1013,7 +1013,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1034,7 +1034,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1057,7 +1057,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1080,7 +1080,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1099,7 +1099,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1118,7 +1118,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1137,7 +1137,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1156,7 +1156,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1175,7 +1175,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1194,7 +1194,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1213,7 +1213,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1232,7 +1232,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1253,7 +1253,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1274,7 +1274,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1295,7 +1295,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1316,7 +1316,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1337,7 +1337,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Blocked</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1358,7 +1358,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1379,7 +1379,7 @@
                                     <AttachedSsr>JFST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>40000.0</Amount>
+                                        <Amount>44000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JFST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1400,7 +1400,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1421,7 +1421,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1442,7 +1442,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1465,7 +1465,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1488,7 +1488,7 @@
                                     <AttachedSsr>JEST</AttachedSsr>
                                     <ControlAttribute>Restricted</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>90000.0</Amount>
+                                        <Amount>99000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JEST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1515,7 +1515,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1536,7 +1536,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1557,7 +1557,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1578,7 +1578,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1599,7 +1599,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1620,7 +1620,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1641,7 +1641,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1662,7 +1662,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1683,7 +1683,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1704,7 +1704,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1725,7 +1725,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1746,7 +1746,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1767,7 +1767,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1788,7 +1788,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1809,7 +1809,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1830,7 +1830,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1851,7 +1851,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1872,7 +1872,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1891,7 +1891,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1910,7 +1910,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1929,7 +1929,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1948,7 +1948,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1967,7 +1967,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -1986,7 +1986,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2005,7 +2005,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2024,7 +2024,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2043,7 +2043,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2062,7 +2062,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2081,7 +2081,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2100,7 +2100,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2119,7 +2119,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2138,7 +2138,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2157,7 +2157,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2176,7 +2176,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2195,7 +2195,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2214,7 +2214,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2235,7 +2235,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2256,7 +2256,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2277,7 +2277,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2298,7 +2298,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2319,7 +2319,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2340,7 +2340,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2361,7 +2361,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2382,7 +2382,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2403,7 +2403,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2424,7 +2424,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2445,7 +2445,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2466,7 +2466,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2487,7 +2487,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2508,7 +2508,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2529,7 +2529,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2550,7 +2550,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2571,7 +2571,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2592,7 +2592,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2613,7 +2613,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2634,7 +2634,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2655,7 +2655,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2676,7 +2676,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2697,7 +2697,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2718,7 +2718,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2739,7 +2739,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2760,7 +2760,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2781,7 +2781,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2802,7 +2802,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2823,7 +2823,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2844,7 +2844,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2865,7 +2865,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2886,7 +2886,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2907,7 +2907,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2928,7 +2928,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2949,7 +2949,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2970,7 +2970,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -2989,7 +2989,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3008,7 +3008,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3027,7 +3027,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3046,7 +3046,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3065,7 +3065,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3084,7 +3084,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3103,7 +3103,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3122,7 +3122,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3141,7 +3141,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3160,7 +3160,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3179,7 +3179,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3198,7 +3198,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3217,7 +3217,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3236,7 +3236,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3255,7 +3255,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3274,7 +3274,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3293,7 +3293,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3312,7 +3312,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3333,7 +3333,7 @@
                                     <AttachedSsr>JLCH</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JLCH</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3354,7 +3354,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3375,7 +3375,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3396,7 +3396,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3417,7 +3417,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3438,7 +3438,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3459,7 +3459,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3480,7 +3480,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3501,7 +3501,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3522,7 +3522,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3543,7 +3543,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3564,7 +3564,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3585,7 +3585,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3606,7 +3606,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3627,7 +3627,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3648,7 +3648,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3669,7 +3669,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>
@@ -3690,7 +3690,7 @@
                                     <AttachedSsr>JNST</AttachedSsr>
                                     <ControlAttribute>Available</ControlAttribute>
                                     <SeatAssignMentFee>
-                                        <Amount>30000.0</Amount>
+                                        <Amount>33000.0</Amount>
                                         <currency>VND</currency>
                                         <ssrcode>JNST</ssrcode>
                                         <feecode>SEAT</feecode>

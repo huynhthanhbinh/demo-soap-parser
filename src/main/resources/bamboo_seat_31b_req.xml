@@ -27,6 +27,32 @@
             </FlightIdentifier>
             <isSeatFeeRequired>true</isSeatFeeRequired>
             <PointOfSale>VN</PointOfSale>
+            <Itinerary>
+                <FlightSegmentDetails>
+                    <FlightSegmentGroupID>2</FlightSegmentGroupID>
+                    <SegmentId>2</SegmentId>
+                    <carrierCode>QH</carrierCode>
+                    <fltNumber>150</fltNumber>
+                    <fltSuffix>*</fltSuffix>
+                    <flightDate>
+                        <Date>2021-05-30Z</Date>
+                    </flightDate>
+                    <boardPoint>SGN</boardPoint>
+                    <offPoint>DAD</offPoint>
+                    <scheduledDepartureDateTime>2021-05-30T14:10:00+00:07</scheduledDepartureDateTime>
+                    <DepartureTimeZone>GMT+07:00</DepartureTimeZone>
+                    <scheduledArrivalTime>2021-05-30T15:35:00+00:07</scheduledArrivalTime>
+                    <ArrivalTimeZone>GMT+07:00</ArrivalTimeZone>
+                    <journeyTime>01:25</journeyTime>
+                    <stops>0</stops>
+                    <arrivalDayChange>0</arrivalDayChange>
+                    <CabinClass>ECONOMY</CabinClass>
+                    <FlightStatus>OPEN</FlightStatus>
+                    <isThroughFlight>false</isThroughFlight>
+                    <isDeiExists>false</isDeiExists>
+                    <FareClass>O</FareClass>
+                </FlightSegmentDetails>
+            </Itinerary>
         </sim:ShowSeatMapRQ>
     </soapenv:Body>
 </soapenv:Envelope>
