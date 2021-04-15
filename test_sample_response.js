@@ -4,5 +4,14 @@
  * Require: install Node before
  */
 
-let sampleResponseJO = require("./sample_response_v2.json");
-console.log(sampleResponseJO);
+const sampleResponseJO = require("./sample_response_v2.json");
+
+const seatConfig = sampleResponseJO.seatConfig;
+const ssrConfig = sampleResponseJO.ssrConfig;
+const seatDetails = sampleResponseJO.seatDetails;
+
+console.log(seatConfig.cabinName);
+console.log(seatConfig.compartments[0]);
+console.log(ssrConfig.JLCH);
+console.log(ssrConfig.JPET.fee);
+console.log(seatDetails["31A"].ssrCode);
