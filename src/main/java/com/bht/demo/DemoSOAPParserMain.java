@@ -66,13 +66,17 @@ public class DemoSOAPParserMain {
                             .map(CompartmentDetailsType::getSeatDetails).flatMap(Collection::stream)
                             .filter(seat -> !"0".equals(seat.getExternalColumnName()))
                             .collect(Collectors.toList());
+
                     bambooSeatResponse.setSeatConfig(seatConfig);
                     bambooSeatResponse.setSsrConfig(seatDetailsTypeList.stream()
                             .flatMap(seat -> seat.getSeatAssignMentFee().stream().filter(fee -> currency.equals(fee.getCurrency())))
                             .collect(Collectors.toMap(SeatAssignMentFeeType::getSsrcode, SeatMapUtil::toSsrDetailJO, (s1, s2) -> s1)));
                     bambooSeatResponse.setSeatDetails(seatDetailsTypeList.stream()
-                            .map(seatDetails -> SeatMapUtil.toSeatDetail(seatDetails, currency, canSaleRestrictedSeat))
-                            .collect(Collectors.toList()));
+                            .sorted(Comparator.comparing(SeatDetailsType::getSeatNumber))
+                            .collect(Collectors.toMap(SeatDetailsType::getSeatNumber,
+                                    seatDetails -> SeatMapUtil.toSeatDetail(seatDetails, currency, canSaleRestrictedSeat).toJson(),
+                                    (s1, s2) -> s1,
+                                    LinkedHashMap::new)));
                 });
         log.info("End execute...");
         log.info(bambooSeatResponse);

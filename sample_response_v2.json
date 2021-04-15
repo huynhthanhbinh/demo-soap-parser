@@ -1,0 +1,2050 @@
+{
+  "seatConfig": {
+    "cabinName": "ECONOMY",
+    "seatMatrix": "111-111-111",
+    "colsConfig": "ABC-DEG-HJK",
+    "compartments": [
+      {
+        "matrixConfig": "101-111-101",
+        "rowIds": [
+          "31",
+          "32",
+          "33"
+        ],
+        "colIds": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "K"
+        ]
+      },
+      {
+        "matrixConfig": "111-111-111",
+        "rowIds": [
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "colIds": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "matrixConfig": "111-111-000",
+        "rowIds": [
+          "46"
+        ],
+        "colIds": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G"
+        ]
+      },
+      {
+        "matrixConfig": "111-000-000",
+        "rowIds": [
+          "47"
+        ],
+        "colIds": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      {
+        "matrixConfig": "111-111-111",
+        "rowIds": [
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60"
+        ],
+        "colIds": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "matrixConfig": "101-111-101",
+        "rowIds": [
+          "61"
+        ],
+        "colIds": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "K"
+        ]
+      },
+      {
+        "matrixConfig": "000-111-000",
+        "rowIds": [
+          "62",
+          "63"
+        ],
+        "colIds": [
+          "D",
+          "E",
+          "G"
+        ]
+      }
+    ]
+  },
+  "ssrConfig": {
+    "JLCH": {
+      "code": "JLCH",
+      "desc": "",
+      "color": "",
+      "fee": 33000.0,
+      "currency": "VND"
+    },
+    "JNST": {
+      "code": "JNST",
+      "desc": "",
+      "color": "",
+      "fee": 33000.0,
+      "currency": "VND"
+    },
+    "JPET": {
+      "code": "JPET",
+      "desc": "",
+      "color": "",
+      "fee": 165000.0,
+      "currency": "VND"
+    },
+    "JEST": {
+      "code": "JEST",
+      "desc": "",
+      "color": "",
+      "fee": 99000.0,
+      "currency": "VND"
+    },
+    "JFST": {
+      "code": "JFST",
+      "desc": "",
+      "color": "",
+      "fee": 44000.0,
+      "currency": "VND"
+    }
+  },
+  "seatDetails": {
+    "31A": {
+      "row": "31",
+      "col": "A",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": false
+    },
+    "31C": {
+      "row": "31",
+      "col": "C",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": false
+    },
+    "31D": {
+      "row": "31",
+      "col": "D",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": false
+    },
+    "31E": {
+      "row": "31",
+      "col": "E",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": false
+    },
+    "31G": {
+      "row": "31",
+      "col": "G",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": false
+    },
+    "31H": {
+      "row": "31",
+      "col": "H",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": false
+    },
+    "31K": {
+      "row": "31",
+      "col": "K",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": false
+    },
+    "32A": {
+      "row": "32",
+      "col": "A",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "32C": {
+      "row": "32",
+      "col": "C",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "32D": {
+      "row": "32",
+      "col": "D",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "32E": {
+      "row": "32",
+      "col": "E",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "32G": {
+      "row": "32",
+      "col": "G",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "32H": {
+      "row": "32",
+      "col": "H",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "32K": {
+      "row": "32",
+      "col": "K",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "33A": {
+      "row": "33",
+      "col": "A",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "33C": {
+      "row": "33",
+      "col": "C",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "33D": {
+      "row": "33",
+      "col": "D",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "33E": {
+      "row": "33",
+      "col": "E",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "33G": {
+      "row": "33",
+      "col": "G",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "33H": {
+      "row": "33",
+      "col": "H",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "33K": {
+      "row": "33",
+      "col": "K",
+      "ssrCode": "JPET",
+      "nearExit": false,
+      "canSale": true
+    },
+    "34A": {
+      "row": "34",
+      "col": "A",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34B": {
+      "row": "34",
+      "col": "B",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34C": {
+      "row": "34",
+      "col": "C",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34D": {
+      "row": "34",
+      "col": "D",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34E": {
+      "row": "34",
+      "col": "E",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34G": {
+      "row": "34",
+      "col": "G",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34H": {
+      "row": "34",
+      "col": "H",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34J": {
+      "row": "34",
+      "col": "J",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "34K": {
+      "row": "34",
+      "col": "K",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35A": {
+      "row": "35",
+      "col": "A",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35B": {
+      "row": "35",
+      "col": "B",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35C": {
+      "row": "35",
+      "col": "C",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35D": {
+      "row": "35",
+      "col": "D",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35E": {
+      "row": "35",
+      "col": "E",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35G": {
+      "row": "35",
+      "col": "G",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35H": {
+      "row": "35",
+      "col": "H",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35J": {
+      "row": "35",
+      "col": "J",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "35K": {
+      "row": "35",
+      "col": "K",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36A": {
+      "row": "36",
+      "col": "A",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36B": {
+      "row": "36",
+      "col": "B",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36C": {
+      "row": "36",
+      "col": "C",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36D": {
+      "row": "36",
+      "col": "D",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36E": {
+      "row": "36",
+      "col": "E",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36G": {
+      "row": "36",
+      "col": "G",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36H": {
+      "row": "36",
+      "col": "H",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36J": {
+      "row": "36",
+      "col": "J",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "36K": {
+      "row": "36",
+      "col": "K",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37A": {
+      "row": "37",
+      "col": "A",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37B": {
+      "row": "37",
+      "col": "B",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37C": {
+      "row": "37",
+      "col": "C",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37D": {
+      "row": "37",
+      "col": "D",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37E": {
+      "row": "37",
+      "col": "E",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37G": {
+      "row": "37",
+      "col": "G",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37H": {
+      "row": "37",
+      "col": "H",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37J": {
+      "row": "37",
+      "col": "J",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "37K": {
+      "row": "37",
+      "col": "K",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": false
+    },
+    "38A": {
+      "row": "38",
+      "col": "A",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38B": {
+      "row": "38",
+      "col": "B",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38C": {
+      "row": "38",
+      "col": "C",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38D": {
+      "row": "38",
+      "col": "D",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38E": {
+      "row": "38",
+      "col": "E",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38G": {
+      "row": "38",
+      "col": "G",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38H": {
+      "row": "38",
+      "col": "H",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38J": {
+      "row": "38",
+      "col": "J",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "38K": {
+      "row": "38",
+      "col": "K",
+      "ssrCode": "JFST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39A": {
+      "row": "39",
+      "col": "A",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39B": {
+      "row": "39",
+      "col": "B",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39C": {
+      "row": "39",
+      "col": "C",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39D": {
+      "row": "39",
+      "col": "D",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39E": {
+      "row": "39",
+      "col": "E",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39G": {
+      "row": "39",
+      "col": "G",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39H": {
+      "row": "39",
+      "col": "H",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39J": {
+      "row": "39",
+      "col": "J",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "39K": {
+      "row": "39",
+      "col": "K",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40A": {
+      "row": "40",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40B": {
+      "row": "40",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40C": {
+      "row": "40",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40D": {
+      "row": "40",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40E": {
+      "row": "40",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40G": {
+      "row": "40",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40H": {
+      "row": "40",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40J": {
+      "row": "40",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "40K": {
+      "row": "40",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41A": {
+      "row": "41",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41B": {
+      "row": "41",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41C": {
+      "row": "41",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41D": {
+      "row": "41",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41E": {
+      "row": "41",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41G": {
+      "row": "41",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41H": {
+      "row": "41",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41J": {
+      "row": "41",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "41K": {
+      "row": "41",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42A": {
+      "row": "42",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42B": {
+      "row": "42",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42C": {
+      "row": "42",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42D": {
+      "row": "42",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42E": {
+      "row": "42",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42G": {
+      "row": "42",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42H": {
+      "row": "42",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42J": {
+      "row": "42",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "42K": {
+      "row": "42",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43A": {
+      "row": "43",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43B": {
+      "row": "43",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43C": {
+      "row": "43",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43D": {
+      "row": "43",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43E": {
+      "row": "43",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43G": {
+      "row": "43",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43H": {
+      "row": "43",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43J": {
+      "row": "43",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "43K": {
+      "row": "43",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44A": {
+      "row": "44",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44B": {
+      "row": "44",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44C": {
+      "row": "44",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44D": {
+      "row": "44",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44E": {
+      "row": "44",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44G": {
+      "row": "44",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44H": {
+      "row": "44",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44J": {
+      "row": "44",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "44K": {
+      "row": "44",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45A": {
+      "row": "45",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45B": {
+      "row": "45",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45C": {
+      "row": "45",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45D": {
+      "row": "45",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45E": {
+      "row": "45",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45G": {
+      "row": "45",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45H": {
+      "row": "45",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45J": {
+      "row": "45",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "45K": {
+      "row": "45",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "46A": {
+      "row": "46",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "46B": {
+      "row": "46",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "46C": {
+      "row": "46",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "46D": {
+      "row": "46",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "46E": {
+      "row": "46",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "46G": {
+      "row": "46",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "47A": {
+      "row": "47",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "47B": {
+      "row": "47",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "47C": {
+      "row": "47",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "48A": {
+      "row": "48",
+      "col": "A",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48B": {
+      "row": "48",
+      "col": "B",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48C": {
+      "row": "48",
+      "col": "C",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48D": {
+      "row": "48",
+      "col": "D",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48E": {
+      "row": "48",
+      "col": "E",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48G": {
+      "row": "48",
+      "col": "G",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48H": {
+      "row": "48",
+      "col": "H",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48J": {
+      "row": "48",
+      "col": "J",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "48K": {
+      "row": "48",
+      "col": "K",
+      "ssrCode": "JEST",
+      "nearExit": true,
+      "canSale": false
+    },
+    "49A": {
+      "row": "49",
+      "col": "A",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49B": {
+      "row": "49",
+      "col": "B",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49C": {
+      "row": "49",
+      "col": "C",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49D": {
+      "row": "49",
+      "col": "D",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49E": {
+      "row": "49",
+      "col": "E",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49G": {
+      "row": "49",
+      "col": "G",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49H": {
+      "row": "49",
+      "col": "H",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49J": {
+      "row": "49",
+      "col": "J",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "49K": {
+      "row": "49",
+      "col": "K",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50A": {
+      "row": "50",
+      "col": "A",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50B": {
+      "row": "50",
+      "col": "B",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50C": {
+      "row": "50",
+      "col": "C",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50D": {
+      "row": "50",
+      "col": "D",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50E": {
+      "row": "50",
+      "col": "E",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50G": {
+      "row": "50",
+      "col": "G",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50H": {
+      "row": "50",
+      "col": "H",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50J": {
+      "row": "50",
+      "col": "J",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "50K": {
+      "row": "50",
+      "col": "K",
+      "ssrCode": "JLCH",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51A": {
+      "row": "51",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51B": {
+      "row": "51",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51C": {
+      "row": "51",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51D": {
+      "row": "51",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51E": {
+      "row": "51",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51G": {
+      "row": "51",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51H": {
+      "row": "51",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51J": {
+      "row": "51",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "51K": {
+      "row": "51",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52A": {
+      "row": "52",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52B": {
+      "row": "52",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52C": {
+      "row": "52",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52D": {
+      "row": "52",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52E": {
+      "row": "52",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52G": {
+      "row": "52",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52H": {
+      "row": "52",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52J": {
+      "row": "52",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "52K": {
+      "row": "52",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53A": {
+      "row": "53",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53B": {
+      "row": "53",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53C": {
+      "row": "53",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53D": {
+      "row": "53",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53E": {
+      "row": "53",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53G": {
+      "row": "53",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53H": {
+      "row": "53",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53J": {
+      "row": "53",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "53K": {
+      "row": "53",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54A": {
+      "row": "54",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54B": {
+      "row": "54",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54C": {
+      "row": "54",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54D": {
+      "row": "54",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54E": {
+      "row": "54",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54G": {
+      "row": "54",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54H": {
+      "row": "54",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54J": {
+      "row": "54",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "54K": {
+      "row": "54",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55A": {
+      "row": "55",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55B": {
+      "row": "55",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55C": {
+      "row": "55",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55D": {
+      "row": "55",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55E": {
+      "row": "55",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55G": {
+      "row": "55",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55H": {
+      "row": "55",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55J": {
+      "row": "55",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "55K": {
+      "row": "55",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56A": {
+      "row": "56",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56B": {
+      "row": "56",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56C": {
+      "row": "56",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56D": {
+      "row": "56",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56E": {
+      "row": "56",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56G": {
+      "row": "56",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56H": {
+      "row": "56",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56J": {
+      "row": "56",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "56K": {
+      "row": "56",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57A": {
+      "row": "57",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57B": {
+      "row": "57",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57C": {
+      "row": "57",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57D": {
+      "row": "57",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57E": {
+      "row": "57",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57G": {
+      "row": "57",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57H": {
+      "row": "57",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57J": {
+      "row": "57",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "57K": {
+      "row": "57",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58A": {
+      "row": "58",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58B": {
+      "row": "58",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58C": {
+      "row": "58",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58D": {
+      "row": "58",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58E": {
+      "row": "58",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58G": {
+      "row": "58",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58H": {
+      "row": "58",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58J": {
+      "row": "58",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "58K": {
+      "row": "58",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59A": {
+      "row": "59",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59B": {
+      "row": "59",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59C": {
+      "row": "59",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59D": {
+      "row": "59",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59E": {
+      "row": "59",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59G": {
+      "row": "59",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59H": {
+      "row": "59",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59J": {
+      "row": "59",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "59K": {
+      "row": "59",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60A": {
+      "row": "60",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60B": {
+      "row": "60",
+      "col": "B",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60C": {
+      "row": "60",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60D": {
+      "row": "60",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60E": {
+      "row": "60",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60G": {
+      "row": "60",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60H": {
+      "row": "60",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60J": {
+      "row": "60",
+      "col": "J",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "60K": {
+      "row": "60",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "61A": {
+      "row": "61",
+      "col": "A",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "61C": {
+      "row": "61",
+      "col": "C",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "61D": {
+      "row": "61",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "61E": {
+      "row": "61",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "61G": {
+      "row": "61",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "61H": {
+      "row": "61",
+      "col": "H",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "61K": {
+      "row": "61",
+      "col": "K",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "62D": {
+      "row": "62",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "62E": {
+      "row": "62",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "62G": {
+      "row": "62",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "63D": {
+      "row": "63",
+      "col": "D",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "63E": {
+      "row": "63",
+      "col": "E",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    },
+    "63G": {
+      "row": "63",
+      "col": "G",
+      "ssrCode": "JNST",
+      "nearExit": false,
+      "canSale": true
+    }
+  }
+}
